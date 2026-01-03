@@ -1,0 +1,20 @@
+version: 2
+
+models:
+  - name: transform_emp_hours
+    description: "Transformed employee hours with current and previous week totals"
+    columns:
+      - name: emp_id
+        tests:
+          - not_null
+      - name: emp_name
+        tests:
+          - not_null
+      - name: week_start
+        tests:
+          - not_null
+      - name: current_week_total_hours
+        tests:
+          - not_null
+      - name: previous_week_total_hours
+      - name: percentage_change

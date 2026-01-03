@@ -1,0 +1,19 @@
+version: 2
+
+models:
+  - name: kpi_emp_hours
+    description: "KPI for employee hours with flags"
+    columns:
+      - name: emp_id
+        tests:
+          - not_null
+      - name: emp_name
+        tests:
+          - not_null
+      - name: week_start
+        tests:
+          - not_null
+      - name: percentage_change_flag
+        tests:
+          - accepted_values:
+              values: ['Improving', 'Declining', 'Stable', 'Insufficient Data']

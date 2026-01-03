@@ -1,0 +1,7 @@
+version: 2
+
+sources:
+  - name: source_data           # This is the name you use in your {{ source() }} call
+    schema: raw                 # This should match your schema in PostgreSQL
+    tables:
+      - name: raw_emp_hours         # This is the table in your 'raw' schema

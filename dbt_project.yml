@@ -1,0 +1,16 @@
+name: wow_model
+version: '1.0'
+config-version: 2
+
+profile: wow_model_profile   # This links to profiles.yml
+
+source-paths: ["models"]
+analysis-paths: ["analysis"]
+test-paths: ["tests"]
+data-paths: ["data"]
+macro-paths: ["macros"]
+
+target-path: "target"
+clean-targets:
+  - "target"
+  - "dbt_modules"

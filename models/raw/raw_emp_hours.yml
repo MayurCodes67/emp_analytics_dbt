@@ -1,0 +1,20 @@
+version: 2
+
+models:
+  - name: raw_emp_hours
+    description: "Raw employee hours data"
+    columns:
+      - name: emp_id
+        description: "Employee ID"
+        tests:
+          - not_null
+      - name: emp_name
+        description: "Employee name"
+        tests:
+          - not_null
+      - name: event_date
+        description: "Date of event"
+        tests:
+          - not_null
+      - name: hours_worked
+        description: "Hours worked"
