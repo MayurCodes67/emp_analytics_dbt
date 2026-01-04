@@ -3565,3 +3565,2229 @@ parsing.
 [0m23:53:12.510035 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002303282D2D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023032B18040>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023032653B50>]}
 [0m23:53:12.512028 [debug] [MainThread]: Flushing usage events
 [0m23:53:13.862722 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m01:49:29.671786 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002088C058C70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002088E2F4EB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002088E2F4CD0>]}
+
+
+============================== 01:49:29.681781 | ae788058-b61e-447d-b468-8f14851b66bd ==============================
+[0m01:49:29.681781 [info ] [MainThread]: Running with dbt=1.11.2
+[0m01:49:29.685089 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\mayur\\AppData\\Roaming\\dbt', 'use_colors': 'True', 'invocation_command': 'dbt run', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'C:\\emp_analytics\\WoW_Model\\logs'}
+[0m01:49:29.987233 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+The `source-paths` config has been renamed to `model-paths`. Please update your
+`dbt_project.yml` configuration to reflect this change.
+[0m01:49:29.990237 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': 'ae788058-b61e-447d-b468-8f14851b66bd', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002088E3B3430>]}
+[0m01:49:29.993237 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+The `data-paths` config has been renamed to `seed-paths`. Please update your
+`dbt_project.yml` configuration to reflect this change.
+[0m01:49:29.997235 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': 'ae788058-b61e-447d-b468-8f14851b66bd', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002088E3B1510>]}
+[0m01:49:30.568007 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'ae788058-b61e-447d-b468-8f14851b66bd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002088A2E5180>]}
+[0m01:49:30.806330 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'ae788058-b61e-447d-b468-8f14851b66bd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002088E04A7D0>]}
+[0m01:49:30.809331 [info ] [MainThread]: Registered adapter: postgres=1.10.0
+[0m01:49:31.732703 [debug] [MainThread]: checksum: 3d40d8bbe1bef07db1c24822f2dbfff8bc07f2a48ed4fe2658a40653aec0b54b, vars: {}, profile: , target: , version: 1.11.2
+[0m01:49:32.429624 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m01:49:32.431628 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m01:49:32.433627 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m01:49:32.742320 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'ae788058-b61e-447d-b468-8f14851b66bd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002088E4DE170>]}
+[0m01:49:33.079584 [debug] [MainThread]: Wrote artifact WritableManifest to C:\emp_analytics\WoW_Model\target\manifest.json
+[0m01:49:33.089257 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\emp_analytics\WoW_Model\target\semantic_manifest.json
+[0m01:49:33.170443 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'ae788058-b61e-447d-b468-8f14851b66bd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002088F972950>]}
+[0m01:49:33.172443 [info ] [MainThread]: Found 1 seed, 4 models, 15 data tests, 1 source, 463 macros
+[0m01:49:33.174457 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'ae788058-b61e-447d-b468-8f14851b66bd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002088F959BA0>]}
+[0m01:49:33.178440 [info ] [MainThread]: 
+[0m01:49:33.180755 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m01:49:33.182287 [info ] [MainThread]: 
+[0m01:49:33.184286 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m01:49:33.196518 [debug] [ThreadPool]: Acquiring new postgres connection 'list_WoW Model'
+[0m01:49:33.459539 [debug] [ThreadPool]: Using postgres connection "list_WoW Model"
+[0m01:49:33.460538 [debug] [ThreadPool]: On list_WoW Model: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "wow_model_profile", "target_name": "dev", "connection_name": "list_WoW Model"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m01:49:33.461536 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m01:49:33.590074 [debug] [ThreadPool]: SQL status: SELECT 8 in 0.128 seconds
+[0m01:49:33.593069 [debug] [ThreadPool]: On list_WoW Model: Close
+[0m01:49:33.598079 [debug] [ThreadPool]: Acquiring new postgres connection 'list_WoW Model_raw'
+[0m01:49:33.618069 [debug] [ThreadPool]: Using postgres connection "list_WoW Model_raw"
+[0m01:49:33.620074 [debug] [ThreadPool]: On list_WoW Model_raw: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "wow_model_profile", "target_name": "dev", "connection_name": "list_WoW Model_raw"} */
+select
+      'WoW Model' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'raw'
+    union all
+    select
+      'WoW Model' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'raw'
+    union all
+    select
+      'WoW Model' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'raw'
+  
+[0m01:49:33.622076 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m01:49:33.735943 [debug] [ThreadPool]: SQL status: SELECT 4 in 0.114 seconds
+[0m01:49:33.740939 [debug] [ThreadPool]: On list_WoW Model_raw: ROLLBACK
+[0m01:49:33.743943 [debug] [ThreadPool]: On list_WoW Model_raw: Close
+[0m01:49:33.758215 [debug] [MainThread]: Using postgres connection "master"
+[0m01:49:33.759217 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "wow_model_profile", "target_name": "dev", "connection_name": "master"} */
+select distinct
+        dependent_namespace.nspname as dependent_schema,
+        dependent_class.relname as dependent_name,
+        referenced_namespace.nspname as referenced_schema,
+        referenced_class.relname as referenced_name
+
+    -- Query for views: views are entries in pg_class with an entry in pg_rewrite, but we avoid
+    -- a seq scan on pg_rewrite by leveraging the fact there is an "internal" row in pg_depend for
+    -- the view...
+    from pg_class as dependent_class
+    join pg_namespace as dependent_namespace on dependent_namespace.oid = dependent_class.relnamespace
+    join pg_depend as dependent_depend on dependent_depend.refobjid = dependent_class.oid
+        and dependent_depend.classid = 'pg_rewrite'::regclass
+        and dependent_depend.refclassid = 'pg_class'::regclass
+        and dependent_depend.deptype = 'i'
+
+    -- ... and via pg_depend (that has a row per column, hence the need for "distinct" above, and
+    -- making sure to exclude the internal row to avoid a view appearing to depend on itself)...
+    join pg_depend as joining_depend on joining_depend.objid = dependent_depend.objid
+        and joining_depend.classid = 'pg_rewrite'::regclass
+        and joining_depend.refclassid = 'pg_class'::regclass
+        and joining_depend.refobjid != dependent_depend.refobjid
+
+    -- ... we can find the tables they query from in pg_class, but excluding system tables. Note we
+    -- don't need need to exclude _dependent_ system tables, because they only query from other
+    -- system tables, and so are automatically excluded by excluding _referenced_ system tables
+    join pg_class as referenced_class on referenced_class.oid = joining_depend.refobjid
+    join pg_namespace as referenced_namespace on referenced_namespace.oid = referenced_class.relnamespace
+        and referenced_namespace.nspname != 'information_schema'
+        and referenced_namespace.nspname not like 'pg\_%'
+
+    order by
+        dependent_schema, dependent_name, referenced_schema, referenced_name;
+[0m01:49:33.761215 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m01:49:33.864784 [debug] [MainThread]: SQL status: SELECT 0 in 0.104 seconds
+[0m01:49:33.867787 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'ae788058-b61e-447d-b468-8f14851b66bd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002088FA6D660>]}
+[0m01:49:33.868789 [debug] [MainThread]: On master: ROLLBACK
+[0m01:49:33.871792 [debug] [MainThread]: On master: COMMIT
+[0m01:49:33.873787 [debug] [MainThread]: Using postgres connection "master"
+[0m01:49:33.875787 [debug] [MainThread]: On master: COMMIT
+[0m01:49:33.877790 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m01:49:33.878791 [debug] [MainThread]: On master: Close
+[0m01:49:33.890859 [debug] [Thread-1 (]: Began running node model.wow_model.raw_emp_hours
+[0m01:49:33.891860 [info ] [Thread-1 (]: 1 of 4 START sql table model raw.raw_emp_hours ................................. [RUN]
+[0m01:49:33.893972 [debug] [Thread-1 (]: Acquiring new postgres connection 'model.wow_model.raw_emp_hours'
+[0m01:49:33.895866 [debug] [Thread-1 (]: Began compiling node model.wow_model.raw_emp_hours
+[0m01:49:33.916887 [debug] [Thread-1 (]: Writing injected SQL for node "model.wow_model.raw_emp_hours"
+[0m01:49:33.919592 [debug] [Thread-1 (]: Began executing node model.wow_model.raw_emp_hours
+[0m01:49:34.026279 [debug] [Thread-1 (]: Writing runtime sql for node "model.wow_model.raw_emp_hours"
+[0m01:49:34.028945 [debug] [Thread-1 (]: Using postgres connection "model.wow_model.raw_emp_hours"
+[0m01:49:34.030946 [debug] [Thread-1 (]: On model.wow_model.raw_emp_hours: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "wow_model_profile", "target_name": "dev", "node_id": "model.wow_model.raw_emp_hours"} */
+
+  
+    
+
+  create  table "WoW Model"."raw"."raw_emp_hours__dbt_tmp"
+  
+  
+    as
+  
+  (
+    
+
+SELECT *
+FROM "WoW Model"."raw"."raw_emp_hours"
+  );
+  
+[0m01:49:34.031943 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m01:49:34.151545 [debug] [Thread-1 (]: SQL status: SELECT 100 in 0.119 seconds
+[0m01:49:34.179939 [debug] [Thread-1 (]: Using postgres connection "model.wow_model.raw_emp_hours"
+[0m01:49:34.182941 [debug] [Thread-1 (]: On model.wow_model.raw_emp_hours: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "wow_model_profile", "target_name": "dev", "node_id": "model.wow_model.raw_emp_hours"} */
+alter table "WoW Model"."raw"."raw_emp_hours" rename to "raw_emp_hours__dbt_backup"
+[0m01:49:34.186652 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.002 seconds
+[0m01:49:34.195649 [debug] [Thread-1 (]: Using postgres connection "model.wow_model.raw_emp_hours"
+[0m01:49:34.196652 [debug] [Thread-1 (]: On model.wow_model.raw_emp_hours: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "wow_model_profile", "target_name": "dev", "node_id": "model.wow_model.raw_emp_hours"} */
+alter table "WoW Model"."raw"."raw_emp_hours__dbt_tmp" rename to "raw_emp_hours"
+[0m01:49:34.198651 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.001 seconds
+[0m01:49:34.249584 [debug] [Thread-1 (]: On model.wow_model.raw_emp_hours: COMMIT
+[0m01:49:34.251586 [debug] [Thread-1 (]: Using postgres connection "model.wow_model.raw_emp_hours"
+[0m01:49:34.252596 [debug] [Thread-1 (]: On model.wow_model.raw_emp_hours: COMMIT
+[0m01:49:34.256586 [debug] [Thread-1 (]: SQL status: COMMIT in 0.001 seconds
+[0m01:49:34.277744 [debug] [Thread-1 (]: Applying DROP to: "WoW Model"."raw"."raw_emp_hours__dbt_backup"
+[0m01:49:34.295374 [debug] [Thread-1 (]: Using postgres connection "model.wow_model.raw_emp_hours"
+[0m01:49:34.296372 [debug] [Thread-1 (]: On model.wow_model.raw_emp_hours: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "wow_model_profile", "target_name": "dev", "node_id": "model.wow_model.raw_emp_hours"} */
+drop table if exists "WoW Model"."raw"."raw_emp_hours__dbt_backup" cascade
+[0m01:49:34.306374 [debug] [Thread-1 (]: SQL status: DROP TABLE in 0.008 seconds
+[0m01:49:34.313703 [debug] [Thread-1 (]: On model.wow_model.raw_emp_hours: Close
+[0m01:49:34.321700 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'ae788058-b61e-447d-b468-8f14851b66bd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002088FE2E680>]}
+[0m01:49:34.323707 [info ] [Thread-1 (]: 1 of 4 OK created sql table model raw.raw_emp_hours ............................ [[32mSELECT 100[0m in 0.42s]
+[0m01:49:34.327449 [debug] [Thread-1 (]: Finished running node model.wow_model.raw_emp_hours
+[0m01:49:34.330449 [debug] [Thread-1 (]: Began running node model.wow_model.stg_emp_hours
+[0m01:49:34.331450 [info ] [Thread-1 (]: 2 of 4 START sql table model raw.stg_emp_hours ................................. [RUN]
+[0m01:49:34.333450 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.wow_model.raw_emp_hours, now model.wow_model.stg_emp_hours)
+[0m01:49:34.335452 [debug] [Thread-1 (]: Began compiling node model.wow_model.stg_emp_hours
+[0m01:49:34.345652 [debug] [Thread-1 (]: Writing injected SQL for node "model.wow_model.stg_emp_hours"
+[0m01:49:34.349653 [debug] [Thread-1 (]: Began executing node model.wow_model.stg_emp_hours
+[0m01:49:34.363793 [debug] [Thread-1 (]: Writing runtime sql for node "model.wow_model.stg_emp_hours"
+[0m01:49:34.366795 [debug] [Thread-1 (]: Using postgres connection "model.wow_model.stg_emp_hours"
+[0m01:49:34.368795 [debug] [Thread-1 (]: On model.wow_model.stg_emp_hours: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "wow_model_profile", "target_name": "dev", "node_id": "model.wow_model.stg_emp_hours"} */
+
+  
+    
+
+  create  table "WoW Model"."raw"."stg_emp_hours__dbt_tmp"
+  
+  
+    as
+  
+  (
+    
+
+SELECT emp_id,
+       emp_name,
+	   DATE_TRUNC('week', event_date)::date AS week_start,
+	   COALESCE(hours_worked, 0) AS clean_hours
+FROM "WoW Model"."raw"."raw_emp_hours"
+  );
+  
+[0m01:49:34.370575 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m01:49:34.570328 [debug] [Thread-1 (]: SQL status: SELECT 100 in 0.199 seconds
+[0m01:49:34.579333 [debug] [Thread-1 (]: Using postgres connection "model.wow_model.stg_emp_hours"
+[0m01:49:34.580337 [debug] [Thread-1 (]: On model.wow_model.stg_emp_hours: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "wow_model_profile", "target_name": "dev", "node_id": "model.wow_model.stg_emp_hours"} */
+alter table "WoW Model"."raw"."stg_emp_hours" rename to "stg_emp_hours__dbt_backup"
+[0m01:49:34.582332 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.001 seconds
+[0m01:49:34.592330 [debug] [Thread-1 (]: Using postgres connection "model.wow_model.stg_emp_hours"
+[0m01:49:34.594332 [debug] [Thread-1 (]: On model.wow_model.stg_emp_hours: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "wow_model_profile", "target_name": "dev", "node_id": "model.wow_model.stg_emp_hours"} */
+alter table "WoW Model"."raw"."stg_emp_hours__dbt_tmp" rename to "stg_emp_hours"
+[0m01:49:34.597333 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.001 seconds
+[0m01:49:34.603328 [debug] [Thread-1 (]: On model.wow_model.stg_emp_hours: COMMIT
+[0m01:49:34.605329 [debug] [Thread-1 (]: Using postgres connection "model.wow_model.stg_emp_hours"
+[0m01:49:34.606328 [debug] [Thread-1 (]: On model.wow_model.stg_emp_hours: COMMIT
+[0m01:49:34.609331 [debug] [Thread-1 (]: SQL status: COMMIT in 0.001 seconds
+[0m01:49:34.615329 [debug] [Thread-1 (]: Applying DROP to: "WoW Model"."raw"."stg_emp_hours__dbt_backup"
+[0m01:49:34.617332 [debug] [Thread-1 (]: Using postgres connection "model.wow_model.stg_emp_hours"
+[0m01:49:34.618331 [debug] [Thread-1 (]: On model.wow_model.stg_emp_hours: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "wow_model_profile", "target_name": "dev", "node_id": "model.wow_model.stg_emp_hours"} */
+drop table if exists "WoW Model"."raw"."stg_emp_hours__dbt_backup" cascade
+[0m01:49:34.626329 [debug] [Thread-1 (]: SQL status: DROP TABLE in 0.006 seconds
+[0m01:49:34.629332 [debug] [Thread-1 (]: On model.wow_model.stg_emp_hours: Close
+[0m01:49:34.631331 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'ae788058-b61e-447d-b468-8f14851b66bd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002088BE822F0>]}
+[0m01:49:34.634332 [info ] [Thread-1 (]: 2 of 4 OK created sql table model raw.stg_emp_hours ............................ [[32mSELECT 100[0m in 0.30s]
+[0m01:49:34.638329 [debug] [Thread-1 (]: Finished running node model.wow_model.stg_emp_hours
+[0m01:49:34.640328 [debug] [Thread-1 (]: Began running node model.wow_model.transform_emp_hours
+[0m01:49:34.642339 [info ] [Thread-1 (]: 3 of 4 START sql table model raw.transform_emp_hours ........................... [RUN]
+[0m01:49:34.645334 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.wow_model.stg_emp_hours, now model.wow_model.transform_emp_hours)
+[0m01:49:34.647332 [debug] [Thread-1 (]: Began compiling node model.wow_model.transform_emp_hours
+[0m01:49:34.657326 [debug] [Thread-1 (]: Writing injected SQL for node "model.wow_model.transform_emp_hours"
+[0m01:49:34.659328 [debug] [Thread-1 (]: Began executing node model.wow_model.transform_emp_hours
+[0m01:49:34.668328 [debug] [Thread-1 (]: Writing runtime sql for node "model.wow_model.transform_emp_hours"
+[0m01:49:34.670327 [debug] [Thread-1 (]: Using postgres connection "model.wow_model.transform_emp_hours"
+[0m01:49:34.672331 [debug] [Thread-1 (]: On model.wow_model.transform_emp_hours: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "wow_model_profile", "target_name": "dev", "node_id": "model.wow_model.transform_emp_hours"} */
+
+  
+    
+
+  create  table "WoW Model"."raw"."transform_emp_hours__dbt_tmp"
+  
+  
+    as
+  
+  (
+    
+
+WITH current_wk_emp_total_hrs AS (
+SELECT emp_id,
+       emp_name,
+	   week_start,
+	   SUM(clean_hours) AS total_hours_worked
+FROM "WoW Model"."raw"."stg_emp_hours"
+GROUP BY emp_id,
+         emp_name,
+		 week_start
+),
+
+prev_wk_emp_total_hrs AS (
+SELECT emp_id,
+       emp_name,
+	   week_start,
+	   total_hours_worked AS current_week_total_hours,
+	   LAG(total_hours_worked) OVER(PARTITION BY emp_id ORDER BY week_start) AS previous_week_total_hours
+FROM current_wk_emp_total_hrs
+)
+
+SELECT emp_id,
+       emp_name,
+	   week_start,
+	   current_week_total_hours,
+	   previous_week_total_hours,
+	   ((current_week_total_hours - previous_week_total_hours) / NULLIF(previous_week_total_hours, 0) * 100) AS percentage_change
+FROM prev_wk_emp_total_hrs
+  );
+  
+[0m01:49:34.674326 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m01:49:34.792917 [debug] [Thread-1 (]: SQL status: SELECT 25 in 0.118 seconds
+[0m01:49:34.803450 [debug] [Thread-1 (]: Using postgres connection "model.wow_model.transform_emp_hours"
+[0m01:49:34.804446 [debug] [Thread-1 (]: On model.wow_model.transform_emp_hours: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "wow_model_profile", "target_name": "dev", "node_id": "model.wow_model.transform_emp_hours"} */
+alter table "WoW Model"."raw"."transform_emp_hours" rename to "transform_emp_hours__dbt_backup"
+[0m01:49:34.806450 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.001 seconds
+[0m01:49:34.824452 [debug] [Thread-1 (]: Using postgres connection "model.wow_model.transform_emp_hours"
+[0m01:49:34.829455 [debug] [Thread-1 (]: On model.wow_model.transform_emp_hours: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "wow_model_profile", "target_name": "dev", "node_id": "model.wow_model.transform_emp_hours"} */
+alter table "WoW Model"."raw"."transform_emp_hours__dbt_tmp" rename to "transform_emp_hours"
+[0m01:49:34.835415 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.001 seconds
+[0m01:49:34.844157 [debug] [Thread-1 (]: On model.wow_model.transform_emp_hours: COMMIT
+[0m01:49:34.849157 [debug] [Thread-1 (]: Using postgres connection "model.wow_model.transform_emp_hours"
+[0m01:49:34.854157 [debug] [Thread-1 (]: On model.wow_model.transform_emp_hours: COMMIT
+[0m01:49:34.859392 [debug] [Thread-1 (]: SQL status: COMMIT in 0.002 seconds
+[0m01:49:34.873398 [debug] [Thread-1 (]: Applying DROP to: "WoW Model"."raw"."transform_emp_hours__dbt_backup"
+[0m01:49:34.878400 [debug] [Thread-1 (]: Using postgres connection "model.wow_model.transform_emp_hours"
+[0m01:49:34.881397 [debug] [Thread-1 (]: On model.wow_model.transform_emp_hours: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "wow_model_profile", "target_name": "dev", "node_id": "model.wow_model.transform_emp_hours"} */
+drop table if exists "WoW Model"."raw"."transform_emp_hours__dbt_backup" cascade
+[0m01:49:34.890392 [debug] [Thread-1 (]: SQL status: DROP TABLE in 0.006 seconds
+[0m01:49:34.894391 [debug] [Thread-1 (]: On model.wow_model.transform_emp_hours: Close
+[0m01:49:34.896389 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'ae788058-b61e-447d-b468-8f14851b66bd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002088BE822F0>]}
+[0m01:49:34.900391 [info ] [Thread-1 (]: 3 of 4 OK created sql table model raw.transform_emp_hours ...................... [[32mSELECT 25[0m in 0.25s]
+[0m01:49:34.903010 [debug] [Thread-1 (]: Finished running node model.wow_model.transform_emp_hours
+[0m01:49:34.906007 [debug] [Thread-1 (]: Began running node model.wow_model.kpi_emp_hours
+[0m01:49:34.908010 [info ] [Thread-1 (]: 4 of 4 START sql table model raw.kpi_emp_hours ................................. [RUN]
+[0m01:49:34.911007 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.wow_model.transform_emp_hours, now model.wow_model.kpi_emp_hours)
+[0m01:49:34.912004 [debug] [Thread-1 (]: Began compiling node model.wow_model.kpi_emp_hours
+[0m01:49:34.919906 [debug] [Thread-1 (]: Writing injected SQL for node "model.wow_model.kpi_emp_hours"
+[0m01:49:34.922910 [debug] [Thread-1 (]: Began executing node model.wow_model.kpi_emp_hours
+[0m01:49:34.936884 [debug] [Thread-1 (]: Writing runtime sql for node "model.wow_model.kpi_emp_hours"
+[0m01:49:34.941886 [debug] [Thread-1 (]: Using postgres connection "model.wow_model.kpi_emp_hours"
+[0m01:49:34.943887 [debug] [Thread-1 (]: On model.wow_model.kpi_emp_hours: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "wow_model_profile", "target_name": "dev", "node_id": "model.wow_model.kpi_emp_hours"} */
+
+  
+    
+
+  create  table "WoW Model"."raw"."kpi_emp_hours__dbt_tmp"
+  
+  
+    as
+  
+  (
+    
+
+SELECT emp_id,
+       emp_name,
+	   week_start,
+	   current_week_total_hours,
+	   previous_week_total_hours,
+	   percentage_change,
+	   CASE
+	       WHEN previous_week_total_hours IS NULL THEN 'Insufficient Data'
+		   WHEN percentage_change > 0 THEN 'Improving'
+		   WHEN percentage_change < 0 THEN 'Declining'
+		   ELSE 'Stable'
+	   END AS percentage_change_flag
+FROM "WoW Model"."raw"."transform_emp_hours"
+  );
+  
+[0m01:49:34.945887 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m01:49:35.048240 [debug] [Thread-1 (]: SQL status: SELECT 25 in 0.102 seconds
+[0m01:49:35.061972 [debug] [Thread-1 (]: Using postgres connection "model.wow_model.kpi_emp_hours"
+[0m01:49:35.064975 [debug] [Thread-1 (]: On model.wow_model.kpi_emp_hours: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "wow_model_profile", "target_name": "dev", "node_id": "model.wow_model.kpi_emp_hours"} */
+alter table "WoW Model"."raw"."kpi_emp_hours" rename to "kpi_emp_hours__dbt_backup"
+[0m01:49:35.067679 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.001 seconds
+[0m01:49:35.083361 [debug] [Thread-1 (]: Using postgres connection "model.wow_model.kpi_emp_hours"
+[0m01:49:35.085366 [debug] [Thread-1 (]: On model.wow_model.kpi_emp_hours: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "wow_model_profile", "target_name": "dev", "node_id": "model.wow_model.kpi_emp_hours"} */
+alter table "WoW Model"."raw"."kpi_emp_hours__dbt_tmp" rename to "kpi_emp_hours"
+[0m01:49:35.088364 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.001 seconds
+[0m01:49:35.094276 [debug] [Thread-1 (]: On model.wow_model.kpi_emp_hours: COMMIT
+[0m01:49:35.096276 [debug] [Thread-1 (]: Using postgres connection "model.wow_model.kpi_emp_hours"
+[0m01:49:35.098848 [debug] [Thread-1 (]: On model.wow_model.kpi_emp_hours: COMMIT
+[0m01:49:35.101804 [debug] [Thread-1 (]: SQL status: COMMIT in 0.001 seconds
+[0m01:49:35.112069 [debug] [Thread-1 (]: Applying DROP to: "WoW Model"."raw"."kpi_emp_hours__dbt_backup"
+[0m01:49:35.115075 [debug] [Thread-1 (]: Using postgres connection "model.wow_model.kpi_emp_hours"
+[0m01:49:35.117074 [debug] [Thread-1 (]: On model.wow_model.kpi_emp_hours: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "wow_model_profile", "target_name": "dev", "node_id": "model.wow_model.kpi_emp_hours"} */
+drop table if exists "WoW Model"."raw"."kpi_emp_hours__dbt_backup" cascade
+[0m01:49:35.125080 [debug] [Thread-1 (]: SQL status: DROP TABLE in 0.007 seconds
+[0m01:49:35.129074 [debug] [Thread-1 (]: On model.wow_model.kpi_emp_hours: Close
+[0m01:49:35.131074 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'ae788058-b61e-447d-b468-8f14851b66bd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002088FFF0D30>]}
+[0m01:49:35.135075 [info ] [Thread-1 (]: 4 of 4 OK created sql table model raw.kpi_emp_hours ............................ [[32mSELECT 25[0m in 0.22s]
+[0m01:49:35.139328 [debug] [Thread-1 (]: Finished running node model.wow_model.kpi_emp_hours
+[0m01:49:35.142323 [debug] [MainThread]: On master: COMMIT
+[0m01:49:35.144324 [debug] [MainThread]: Using postgres connection "master"
+[0m01:49:35.145329 [debug] [MainThread]: On master: COMMIT
+[0m01:49:35.146329 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m01:49:35.232616 [debug] [MainThread]: SQL status: COMMIT in 0.086 seconds
+[0m01:49:35.235619 [debug] [MainThread]: On master: Close
+[0m01:49:35.238620 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m01:49:35.240618 [debug] [MainThread]: Connection 'list_WoW Model' was properly closed.
+[0m01:49:35.242614 [debug] [MainThread]: Connection 'list_WoW Model_raw' was properly closed.
+[0m01:49:35.244619 [debug] [MainThread]: Connection 'model.wow_model.kpi_emp_hours' was properly closed.
+[0m01:49:35.246462 [info ] [MainThread]: 
+[0m01:49:35.249462 [info ] [MainThread]: Finished running 4 table models in 0 hours 0 minutes and 2.06 seconds (2.06s).
+[0m01:49:35.256460 [debug] [MainThread]: Command end result
+[0m01:49:35.332085 [debug] [MainThread]: Wrote artifact WritableManifest to C:\emp_analytics\WoW_Model\target\manifest.json
+[0m01:49:35.337826 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\emp_analytics\WoW_Model\target\semantic_manifest.json
+[0m01:49:35.359591 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\emp_analytics\WoW_Model\target\run_results.json
+[0m01:49:35.361582 [info ] [MainThread]: 
+[0m01:49:35.363585 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m01:49:35.365582 [info ] [MainThread]: 
+[0m01:49:35.367580 [info ] [MainThread]: Done. PASS=4 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=4
+[0m01:49:35.370401 [warn ] [MainThread]: [[33mWARNING[0m][DeprecationsSummary]: Deprecated functionality
+Summary of encountered deprecations:
+- ConfigSourcePathDeprecation: 1 occurrence
+- ConfigDataPathDeprecation: 1 occurrence
+To see all deprecation instances instead of just the first occurrence of each,
+run command again with the `--show-all-deprecations` flag. You may also need to
+run with `--no-partial-parse` as some deprecations are only encountered during
+parsing.
+[0m01:49:35.375399 [debug] [MainThread]: Command `dbt run` succeeded at 01:49:35.375399 after 6.03 seconds
+[0m01:49:35.377402 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002088C058C70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002088A2E5180>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002088FFA46D0>]}
+[0m01:49:35.379403 [debug] [MainThread]: Flushing usage events
+[0m01:49:36.235128 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m01:49:43.964651 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022E9CF34CD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022E9F1DD030>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022E9F1DCE50>]}
+
+
+============================== 01:49:43.973933 | a929b303-9b97-41ba-b317-4770329e4583 ==============================
+[0m01:49:43.973933 [info ] [MainThread]: Running with dbt=1.11.2
+[0m01:49:43.977927 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\mayur\\AppData\\Roaming\\dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt test', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'C:\\emp_analytics\\WoW_Model\\logs'}
+[0m01:49:44.203278 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+The `source-paths` config has been renamed to `model-paths`. Please update your
+`dbt_project.yml` configuration to reflect this change.
+[0m01:49:44.205590 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': 'a929b303-9b97-41ba-b317-4770329e4583', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022E9F2DA3E0>]}
+[0m01:49:44.209190 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+The `data-paths` config has been renamed to `seed-paths`. Please update your
+`dbt_project.yml` configuration to reflect this change.
+[0m01:49:44.211246 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': 'a929b303-9b97-41ba-b317-4770329e4583', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022E9F2DA410>]}
+[0m01:49:44.993429 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'a929b303-9b97-41ba-b317-4770329e4583', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022E9F1717E0>]}
+[0m01:49:45.288394 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'a929b303-9b97-41ba-b317-4770329e4583', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022E9F1DBC40>]}
+[0m01:49:45.291398 [info ] [MainThread]: Registered adapter: postgres=1.10.0
+[0m01:49:46.190722 [debug] [MainThread]: checksum: 3d40d8bbe1bef07db1c24822f2dbfff8bc07f2a48ed4fe2658a40653aec0b54b, vars: {}, profile: , target: , version: 1.11.2
+[0m01:49:46.760875 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m01:49:46.762877 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m01:49:46.763875 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m01:49:47.027378 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'a929b303-9b97-41ba-b317-4770329e4583', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022E9F191F90>]}
+[0m01:49:47.388892 [debug] [MainThread]: Wrote artifact WritableManifest to C:\emp_analytics\WoW_Model\target\manifest.json
+[0m01:49:47.397926 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\emp_analytics\WoW_Model\target\semantic_manifest.json
+[0m01:49:47.567923 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'a929b303-9b97-41ba-b317-4770329e4583', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022EA08F7A00>]}
+[0m01:49:47.569936 [info ] [MainThread]: Found 1 seed, 4 models, 15 data tests, 1 source, 463 macros
+[0m01:49:47.571927 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'a929b303-9b97-41ba-b317-4770329e4583', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022EA0873160>]}
+[0m01:49:47.581928 [info ] [MainThread]: 
+[0m01:49:47.583926 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m01:49:47.585924 [info ] [MainThread]: 
+[0m01:49:47.587928 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m01:49:47.606926 [debug] [ThreadPool]: Acquiring new postgres connection 'list_WoW Model_raw'
+[0m01:49:47.805079 [debug] [ThreadPool]: Using postgres connection "list_WoW Model_raw"
+[0m01:49:47.806081 [debug] [ThreadPool]: On list_WoW Model_raw: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "wow_model_profile", "target_name": "dev", "connection_name": "list_WoW Model_raw"} */
+select
+      'WoW Model' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'raw'
+    union all
+    select
+      'WoW Model' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'raw'
+    union all
+    select
+      'WoW Model' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'raw'
+  
+[0m01:49:47.808082 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m01:49:47.918810 [debug] [ThreadPool]: SQL status: SELECT 4 in 0.111 seconds
+[0m01:49:47.923818 [debug] [ThreadPool]: On list_WoW Model_raw: ROLLBACK
+[0m01:49:47.999221 [debug] [ThreadPool]: On list_WoW Model_raw: Close
+[0m01:49:48.015016 [debug] [MainThread]: Using postgres connection "master"
+[0m01:49:48.016016 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "wow_model_profile", "target_name": "dev", "connection_name": "master"} */
+select distinct
+        dependent_namespace.nspname as dependent_schema,
+        dependent_class.relname as dependent_name,
+        referenced_namespace.nspname as referenced_schema,
+        referenced_class.relname as referenced_name
+
+    -- Query for views: views are entries in pg_class with an entry in pg_rewrite, but we avoid
+    -- a seq scan on pg_rewrite by leveraging the fact there is an "internal" row in pg_depend for
+    -- the view...
+    from pg_class as dependent_class
+    join pg_namespace as dependent_namespace on dependent_namespace.oid = dependent_class.relnamespace
+    join pg_depend as dependent_depend on dependent_depend.refobjid = dependent_class.oid
+        and dependent_depend.classid = 'pg_rewrite'::regclass
+        and dependent_depend.refclassid = 'pg_class'::regclass
+        and dependent_depend.deptype = 'i'
+
+    -- ... and via pg_depend (that has a row per column, hence the need for "distinct" above, and
+    -- making sure to exclude the internal row to avoid a view appearing to depend on itself)...
+    join pg_depend as joining_depend on joining_depend.objid = dependent_depend.objid
+        and joining_depend.classid = 'pg_rewrite'::regclass
+        and joining_depend.refclassid = 'pg_class'::regclass
+        and joining_depend.refobjid != dependent_depend.refobjid
+
+    -- ... we can find the tables they query from in pg_class, but excluding system tables. Note we
+    -- don't need need to exclude _dependent_ system tables, because they only query from other
+    -- system tables, and so are automatically excluded by excluding _referenced_ system tables
+    join pg_class as referenced_class on referenced_class.oid = joining_depend.refobjid
+    join pg_namespace as referenced_namespace on referenced_namespace.oid = referenced_class.relnamespace
+        and referenced_namespace.nspname != 'information_schema'
+        and referenced_namespace.nspname not like 'pg\_%'
+
+    order by
+        dependent_schema, dependent_name, referenced_schema, referenced_name;
+[0m01:49:48.017018 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m01:49:48.214657 [debug] [MainThread]: SQL status: SELECT 0 in 0.197 seconds
+[0m01:49:48.218525 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'a929b303-9b97-41ba-b317-4770329e4583', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022E9F293E80>]}
+[0m01:49:48.220521 [debug] [MainThread]: On master: ROLLBACK
+[0m01:49:48.222527 [debug] [MainThread]: On master: COMMIT
+[0m01:49:48.223525 [debug] [MainThread]: Using postgres connection "master"
+[0m01:49:48.224528 [debug] [MainThread]: On master: COMMIT
+[0m01:49:48.225533 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m01:49:48.227520 [debug] [MainThread]: On master: Close
+[0m01:49:48.237522 [debug] [Thread-1 (]: Began running node test.wow_model.accepted_values_kpi_emp_hours_percentage_change_flag__Improving__Declining__Stable__Insufficient_Data.5485365550
+[0m01:49:48.240524 [info ] [Thread-1 (]: 1 of 15 START test accepted_values_kpi_emp_hours_percentage_change_flag__Improving__Declining__Stable__Insufficient_Data  [RUN]
+[0m01:49:48.243524 [debug] [Thread-1 (]: Acquiring new postgres connection 'test.wow_model.accepted_values_kpi_emp_hours_percentage_change_flag__Improving__Declining__Stable__Insufficient_Data.5485365550'
+[0m01:49:48.245521 [debug] [Thread-1 (]: Began compiling node test.wow_model.accepted_values_kpi_emp_hours_percentage_change_flag__Improving__Declining__Stable__Insufficient_Data.5485365550
+[0m01:49:48.293873 [debug] [Thread-1 (]: Writing injected SQL for node "test.wow_model.accepted_values_kpi_emp_hours_percentage_change_flag__Improving__Declining__Stable__Insufficient_Data.5485365550"
+[0m01:49:48.298674 [debug] [Thread-1 (]: Began executing node test.wow_model.accepted_values_kpi_emp_hours_percentage_change_flag__Improving__Declining__Stable__Insufficient_Data.5485365550
+[0m01:49:48.372056 [debug] [Thread-1 (]: Writing runtime sql for node "test.wow_model.accepted_values_kpi_emp_hours_percentage_change_flag__Improving__Declining__Stable__Insufficient_Data.5485365550"
+[0m01:49:48.376053 [debug] [Thread-1 (]: Using postgres connection "test.wow_model.accepted_values_kpi_emp_hours_percentage_change_flag__Improving__Declining__Stable__Insufficient_Data.5485365550"
+[0m01:49:48.378058 [debug] [Thread-1 (]: On test.wow_model.accepted_values_kpi_emp_hours_percentage_change_flag__Improving__Declining__Stable__Insufficient_Data.5485365550: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "wow_model_profile", "target_name": "dev", "node_id": "test.wow_model.accepted_values_kpi_emp_hours_percentage_change_flag__Improving__Declining__Stable__Insufficient_Data.5485365550"} */
+
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+with all_values as (
+
+    select
+        percentage_change_flag as value_field,
+        count(*) as n_records
+
+    from "WoW Model"."raw"."kpi_emp_hours"
+    group by percentage_change_flag
+
+)
+
+select *
+from all_values
+where value_field not in (
+    'Improving','Declining','Stable','Insufficient Data'
+)
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m01:49:48.380056 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m01:49:48.479890 [debug] [Thread-1 (]: SQL status: SELECT 1 in 0.101 seconds
+[0m01:49:48.490897 [debug] [Thread-1 (]: On test.wow_model.accepted_values_kpi_emp_hours_percentage_change_flag__Improving__Declining__Stable__Insufficient_Data.5485365550: ROLLBACK
+[0m01:49:48.492897 [debug] [Thread-1 (]: On test.wow_model.accepted_values_kpi_emp_hours_percentage_change_flag__Improving__Declining__Stable__Insufficient_Data.5485365550: Close
+[0m01:49:48.495893 [info ] [Thread-1 (]: 1 of 15 PASS accepted_values_kpi_emp_hours_percentage_change_flag__Improving__Declining__Stable__Insufficient_Data  [[32mPASS[0m in 0.25s]
+[0m01:49:48.499896 [debug] [Thread-1 (]: Finished running node test.wow_model.accepted_values_kpi_emp_hours_percentage_change_flag__Improving__Declining__Stable__Insufficient_Data.5485365550
+[0m01:49:48.501891 [debug] [Thread-1 (]: Began running node test.wow_model.not_null_kpi_emp_hours_emp_id.6ea5b523fe
+[0m01:49:48.504893 [info ] [Thread-1 (]: 2 of 15 START test not_null_kpi_emp_hours_emp_id ............................... [RUN]
+[0m01:49:48.506891 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.wow_model.accepted_values_kpi_emp_hours_percentage_change_flag__Improving__Declining__Stable__Insufficient_Data.5485365550, now test.wow_model.not_null_kpi_emp_hours_emp_id.6ea5b523fe)
+[0m01:49:48.508893 [debug] [Thread-1 (]: Began compiling node test.wow_model.not_null_kpi_emp_hours_emp_id.6ea5b523fe
+[0m01:49:48.528894 [debug] [Thread-1 (]: Writing injected SQL for node "test.wow_model.not_null_kpi_emp_hours_emp_id.6ea5b523fe"
+[0m01:49:48.530889 [debug] [Thread-1 (]: Began executing node test.wow_model.not_null_kpi_emp_hours_emp_id.6ea5b523fe
+[0m01:49:48.542892 [debug] [Thread-1 (]: Writing runtime sql for node "test.wow_model.not_null_kpi_emp_hours_emp_id.6ea5b523fe"
+[0m01:49:48.545895 [debug] [Thread-1 (]: Using postgres connection "test.wow_model.not_null_kpi_emp_hours_emp_id.6ea5b523fe"
+[0m01:49:48.547908 [debug] [Thread-1 (]: On test.wow_model.not_null_kpi_emp_hours_emp_id.6ea5b523fe: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "wow_model_profile", "target_name": "dev", "node_id": "test.wow_model.not_null_kpi_emp_hours_emp_id.6ea5b523fe"} */
+
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select emp_id
+from "WoW Model"."raw"."kpi_emp_hours"
+where emp_id is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m01:49:48.549893 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m01:49:48.690645 [debug] [Thread-1 (]: SQL status: SELECT 1 in 0.140 seconds
+[0m01:49:48.696640 [debug] [Thread-1 (]: On test.wow_model.not_null_kpi_emp_hours_emp_id.6ea5b523fe: ROLLBACK
+[0m01:49:48.698640 [debug] [Thread-1 (]: On test.wow_model.not_null_kpi_emp_hours_emp_id.6ea5b523fe: Close
+[0m01:49:48.702646 [info ] [Thread-1 (]: 2 of 15 PASS not_null_kpi_emp_hours_emp_id ..................................... [[32mPASS[0m in 0.19s]
+[0m01:49:48.706646 [debug] [Thread-1 (]: Finished running node test.wow_model.not_null_kpi_emp_hours_emp_id.6ea5b523fe
+[0m01:49:48.709644 [debug] [Thread-1 (]: Began running node test.wow_model.not_null_kpi_emp_hours_emp_name.8525e63cf7
+[0m01:49:48.712647 [info ] [Thread-1 (]: 3 of 15 START test not_null_kpi_emp_hours_emp_name ............................. [RUN]
+[0m01:49:48.714645 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.wow_model.not_null_kpi_emp_hours_emp_id.6ea5b523fe, now test.wow_model.not_null_kpi_emp_hours_emp_name.8525e63cf7)
+[0m01:49:48.717647 [debug] [Thread-1 (]: Began compiling node test.wow_model.not_null_kpi_emp_hours_emp_name.8525e63cf7
+[0m01:49:48.734282 [debug] [Thread-1 (]: Writing injected SQL for node "test.wow_model.not_null_kpi_emp_hours_emp_name.8525e63cf7"
+[0m01:49:48.736282 [debug] [Thread-1 (]: Began executing node test.wow_model.not_null_kpi_emp_hours_emp_name.8525e63cf7
+[0m01:49:48.743576 [debug] [Thread-1 (]: Writing runtime sql for node "test.wow_model.not_null_kpi_emp_hours_emp_name.8525e63cf7"
+[0m01:49:48.746576 [debug] [Thread-1 (]: Using postgres connection "test.wow_model.not_null_kpi_emp_hours_emp_name.8525e63cf7"
+[0m01:49:48.747576 [debug] [Thread-1 (]: On test.wow_model.not_null_kpi_emp_hours_emp_name.8525e63cf7: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "wow_model_profile", "target_name": "dev", "node_id": "test.wow_model.not_null_kpi_emp_hours_emp_name.8525e63cf7"} */
+
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select emp_name
+from "WoW Model"."raw"."kpi_emp_hours"
+where emp_name is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m01:49:48.749580 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m01:49:48.840310 [debug] [Thread-1 (]: SQL status: SELECT 1 in 0.091 seconds
+[0m01:49:48.844315 [debug] [Thread-1 (]: On test.wow_model.not_null_kpi_emp_hours_emp_name.8525e63cf7: ROLLBACK
+[0m01:49:48.845311 [debug] [Thread-1 (]: On test.wow_model.not_null_kpi_emp_hours_emp_name.8525e63cf7: Close
+[0m01:49:48.848039 [info ] [Thread-1 (]: 3 of 15 PASS not_null_kpi_emp_hours_emp_name ................................... [[32mPASS[0m in 0.13s]
+[0m01:49:48.852035 [debug] [Thread-1 (]: Finished running node test.wow_model.not_null_kpi_emp_hours_emp_name.8525e63cf7
+[0m01:49:48.854035 [debug] [Thread-1 (]: Began running node test.wow_model.not_null_kpi_emp_hours_week_start.1ebbb6c0ab
+[0m01:49:48.856039 [info ] [Thread-1 (]: 4 of 15 START test not_null_kpi_emp_hours_week_start ........................... [RUN]
+[0m01:49:48.859033 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.wow_model.not_null_kpi_emp_hours_emp_name.8525e63cf7, now test.wow_model.not_null_kpi_emp_hours_week_start.1ebbb6c0ab)
+[0m01:49:48.861036 [debug] [Thread-1 (]: Began compiling node test.wow_model.not_null_kpi_emp_hours_week_start.1ebbb6c0ab
+[0m01:49:48.870728 [debug] [Thread-1 (]: Writing injected SQL for node "test.wow_model.not_null_kpi_emp_hours_week_start.1ebbb6c0ab"
+[0m01:49:48.873726 [debug] [Thread-1 (]: Began executing node test.wow_model.not_null_kpi_emp_hours_week_start.1ebbb6c0ab
+[0m01:49:48.882692 [debug] [Thread-1 (]: Writing runtime sql for node "test.wow_model.not_null_kpi_emp_hours_week_start.1ebbb6c0ab"
+[0m01:49:48.885694 [debug] [Thread-1 (]: Using postgres connection "test.wow_model.not_null_kpi_emp_hours_week_start.1ebbb6c0ab"
+[0m01:49:48.887693 [debug] [Thread-1 (]: On test.wow_model.not_null_kpi_emp_hours_week_start.1ebbb6c0ab: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "wow_model_profile", "target_name": "dev", "node_id": "test.wow_model.not_null_kpi_emp_hours_week_start.1ebbb6c0ab"} */
+
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select week_start
+from "WoW Model"."raw"."kpi_emp_hours"
+where week_start is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m01:49:48.889690 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m01:49:49.072366 [debug] [Thread-1 (]: SQL status: SELECT 1 in 0.183 seconds
+[0m01:49:49.076368 [debug] [Thread-1 (]: On test.wow_model.not_null_kpi_emp_hours_week_start.1ebbb6c0ab: ROLLBACK
+[0m01:49:49.077366 [debug] [Thread-1 (]: On test.wow_model.not_null_kpi_emp_hours_week_start.1ebbb6c0ab: Close
+[0m01:49:49.081376 [info ] [Thread-1 (]: 4 of 15 PASS not_null_kpi_emp_hours_week_start ................................. [[32mPASS[0m in 0.22s]
+[0m01:49:49.086372 [debug] [Thread-1 (]: Finished running node test.wow_model.not_null_kpi_emp_hours_week_start.1ebbb6c0ab
+[0m01:49:49.089351 [debug] [Thread-1 (]: Began running node test.wow_model.not_null_raw_emp_hours_emp_id.9480d1d4b7
+[0m01:49:49.092354 [info ] [Thread-1 (]: 5 of 15 START test not_null_raw_emp_hours_emp_id ............................... [RUN]
+[0m01:49:49.095356 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.wow_model.not_null_kpi_emp_hours_week_start.1ebbb6c0ab, now test.wow_model.not_null_raw_emp_hours_emp_id.9480d1d4b7)
+[0m01:49:49.097355 [debug] [Thread-1 (]: Began compiling node test.wow_model.not_null_raw_emp_hours_emp_id.9480d1d4b7
+[0m01:49:49.109025 [debug] [Thread-1 (]: Writing injected SQL for node "test.wow_model.not_null_raw_emp_hours_emp_id.9480d1d4b7"
+[0m01:49:49.113025 [debug] [Thread-1 (]: Began executing node test.wow_model.not_null_raw_emp_hours_emp_id.9480d1d4b7
+[0m01:49:49.127871 [debug] [Thread-1 (]: Writing runtime sql for node "test.wow_model.not_null_raw_emp_hours_emp_id.9480d1d4b7"
+[0m01:49:49.132501 [debug] [Thread-1 (]: Using postgres connection "test.wow_model.not_null_raw_emp_hours_emp_id.9480d1d4b7"
+[0m01:49:49.134499 [debug] [Thread-1 (]: On test.wow_model.not_null_raw_emp_hours_emp_id.9480d1d4b7: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "wow_model_profile", "target_name": "dev", "node_id": "test.wow_model.not_null_raw_emp_hours_emp_id.9480d1d4b7"} */
+
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select emp_id
+from "WoW Model"."raw"."raw_emp_hours"
+where emp_id is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m01:49:49.136499 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m01:49:49.335028 [debug] [Thread-1 (]: SQL status: SELECT 1 in 0.199 seconds
+[0m01:49:49.341028 [debug] [Thread-1 (]: On test.wow_model.not_null_raw_emp_hours_emp_id.9480d1d4b7: ROLLBACK
+[0m01:49:49.342026 [debug] [Thread-1 (]: On test.wow_model.not_null_raw_emp_hours_emp_id.9480d1d4b7: Close
+[0m01:49:49.344029 [info ] [Thread-1 (]: 5 of 15 PASS not_null_raw_emp_hours_emp_id ..................................... [[32mPASS[0m in 0.25s]
+[0m01:49:49.349125 [debug] [Thread-1 (]: Finished running node test.wow_model.not_null_raw_emp_hours_emp_id.9480d1d4b7
+[0m01:49:49.351119 [debug] [Thread-1 (]: Began running node test.wow_model.not_null_raw_emp_hours_emp_name.b1ac22277d
+[0m01:49:49.353120 [info ] [Thread-1 (]: 6 of 15 START test not_null_raw_emp_hours_emp_name ............................. [RUN]
+[0m01:49:49.356122 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.wow_model.not_null_raw_emp_hours_emp_id.9480d1d4b7, now test.wow_model.not_null_raw_emp_hours_emp_name.b1ac22277d)
+[0m01:49:49.357118 [debug] [Thread-1 (]: Began compiling node test.wow_model.not_null_raw_emp_hours_emp_name.b1ac22277d
+[0m01:49:49.377170 [debug] [Thread-1 (]: Writing injected SQL for node "test.wow_model.not_null_raw_emp_hours_emp_name.b1ac22277d"
+[0m01:49:49.380889 [debug] [Thread-1 (]: Began executing node test.wow_model.not_null_raw_emp_hours_emp_name.b1ac22277d
+[0m01:49:49.392886 [debug] [Thread-1 (]: Writing runtime sql for node "test.wow_model.not_null_raw_emp_hours_emp_name.b1ac22277d"
+[0m01:49:49.396648 [debug] [Thread-1 (]: Using postgres connection "test.wow_model.not_null_raw_emp_hours_emp_name.b1ac22277d"
+[0m01:49:49.397653 [debug] [Thread-1 (]: On test.wow_model.not_null_raw_emp_hours_emp_name.b1ac22277d: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "wow_model_profile", "target_name": "dev", "node_id": "test.wow_model.not_null_raw_emp_hours_emp_name.b1ac22277d"} */
+
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select emp_name
+from "WoW Model"."raw"."raw_emp_hours"
+where emp_name is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m01:49:49.399649 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m01:49:49.593928 [debug] [Thread-1 (]: SQL status: SELECT 1 in 0.194 seconds
+[0m01:49:49.598168 [debug] [Thread-1 (]: On test.wow_model.not_null_raw_emp_hours_emp_name.b1ac22277d: ROLLBACK
+[0m01:49:49.600920 [debug] [Thread-1 (]: On test.wow_model.not_null_raw_emp_hours_emp_name.b1ac22277d: Close
+[0m01:49:49.603926 [info ] [Thread-1 (]: 6 of 15 PASS not_null_raw_emp_hours_emp_name ................................... [[32mPASS[0m in 0.25s]
+[0m01:49:49.609924 [debug] [Thread-1 (]: Finished running node test.wow_model.not_null_raw_emp_hours_emp_name.b1ac22277d
+[0m01:49:49.612920 [debug] [Thread-1 (]: Began running node test.wow_model.not_null_raw_emp_hours_event_date.fa669a7126
+[0m01:49:49.614931 [info ] [Thread-1 (]: 7 of 15 START test not_null_raw_emp_hours_event_date ........................... [RUN]
+[0m01:49:49.617925 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.wow_model.not_null_raw_emp_hours_emp_name.b1ac22277d, now test.wow_model.not_null_raw_emp_hours_event_date.fa669a7126)
+[0m01:49:49.619919 [debug] [Thread-1 (]: Began compiling node test.wow_model.not_null_raw_emp_hours_event_date.fa669a7126
+[0m01:49:49.635952 [debug] [Thread-1 (]: Writing injected SQL for node "test.wow_model.not_null_raw_emp_hours_event_date.fa669a7126"
+[0m01:49:49.638955 [debug] [Thread-1 (]: Began executing node test.wow_model.not_null_raw_emp_hours_event_date.fa669a7126
+[0m01:49:49.648916 [debug] [Thread-1 (]: Writing runtime sql for node "test.wow_model.not_null_raw_emp_hours_event_date.fa669a7126"
+[0m01:49:49.650919 [debug] [Thread-1 (]: Using postgres connection "test.wow_model.not_null_raw_emp_hours_event_date.fa669a7126"
+[0m01:49:49.652918 [debug] [Thread-1 (]: On test.wow_model.not_null_raw_emp_hours_event_date.fa669a7126: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "wow_model_profile", "target_name": "dev", "node_id": "test.wow_model.not_null_raw_emp_hours_event_date.fa669a7126"} */
+
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select event_date
+from "WoW Model"."raw"."raw_emp_hours"
+where event_date is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m01:49:49.653917 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m01:49:49.736451 [debug] [Thread-1 (]: SQL status: SELECT 1 in 0.083 seconds
+[0m01:49:49.740003 [debug] [Thread-1 (]: On test.wow_model.not_null_raw_emp_hours_event_date.fa669a7126: ROLLBACK
+[0m01:49:49.742977 [debug] [Thread-1 (]: On test.wow_model.not_null_raw_emp_hours_event_date.fa669a7126: Close
+[0m01:49:49.744980 [info ] [Thread-1 (]: 7 of 15 PASS not_null_raw_emp_hours_event_date ................................. [[32mPASS[0m in 0.13s]
+[0m01:49:49.748977 [debug] [Thread-1 (]: Finished running node test.wow_model.not_null_raw_emp_hours_event_date.fa669a7126
+[0m01:49:49.751975 [debug] [Thread-1 (]: Began running node test.wow_model.not_null_stg_emp_hours_clean_hours.3f50176955
+[0m01:49:49.753974 [info ] [Thread-1 (]: 8 of 15 START test not_null_stg_emp_hours_clean_hours .......................... [RUN]
+[0m01:49:49.756978 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.wow_model.not_null_raw_emp_hours_event_date.fa669a7126, now test.wow_model.not_null_stg_emp_hours_clean_hours.3f50176955)
+[0m01:49:49.758982 [debug] [Thread-1 (]: Began compiling node test.wow_model.not_null_stg_emp_hours_clean_hours.3f50176955
+[0m01:49:49.775977 [debug] [Thread-1 (]: Writing injected SQL for node "test.wow_model.not_null_stg_emp_hours_clean_hours.3f50176955"
+[0m01:49:49.779979 [debug] [Thread-1 (]: Began executing node test.wow_model.not_null_stg_emp_hours_clean_hours.3f50176955
+[0m01:49:49.793976 [debug] [Thread-1 (]: Writing runtime sql for node "test.wow_model.not_null_stg_emp_hours_clean_hours.3f50176955"
+[0m01:49:49.798980 [debug] [Thread-1 (]: Using postgres connection "test.wow_model.not_null_stg_emp_hours_clean_hours.3f50176955"
+[0m01:49:49.800981 [debug] [Thread-1 (]: On test.wow_model.not_null_stg_emp_hours_clean_hours.3f50176955: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "wow_model_profile", "target_name": "dev", "node_id": "test.wow_model.not_null_stg_emp_hours_clean_hours.3f50176955"} */
+
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select clean_hours
+from "WoW Model"."raw"."stg_emp_hours"
+where clean_hours is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m01:49:49.803978 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m01:49:49.909902 [debug] [Thread-1 (]: SQL status: SELECT 1 in 0.106 seconds
+[0m01:49:49.919206 [debug] [Thread-1 (]: On test.wow_model.not_null_stg_emp_hours_clean_hours.3f50176955: ROLLBACK
+[0m01:49:49.922762 [debug] [Thread-1 (]: On test.wow_model.not_null_stg_emp_hours_clean_hours.3f50176955: Close
+[0m01:49:49.926728 [info ] [Thread-1 (]: 8 of 15 PASS not_null_stg_emp_hours_clean_hours ................................ [[32mPASS[0m in 0.17s]
+[0m01:49:49.941137 [debug] [Thread-1 (]: Finished running node test.wow_model.not_null_stg_emp_hours_clean_hours.3f50176955
+[0m01:49:49.944613 [debug] [Thread-1 (]: Began running node test.wow_model.not_null_stg_emp_hours_emp_id.dd4e1f2387
+[0m01:49:49.948140 [info ] [Thread-1 (]: 9 of 15 START test not_null_stg_emp_hours_emp_id ............................... [RUN]
+[0m01:49:49.951055 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.wow_model.not_null_stg_emp_hours_clean_hours.3f50176955, now test.wow_model.not_null_stg_emp_hours_emp_id.dd4e1f2387)
+[0m01:49:49.955646 [debug] [Thread-1 (]: Began compiling node test.wow_model.not_null_stg_emp_hours_emp_id.dd4e1f2387
+[0m01:49:49.990977 [debug] [Thread-1 (]: Writing injected SQL for node "test.wow_model.not_null_stg_emp_hours_emp_id.dd4e1f2387"
+[0m01:49:49.997629 [debug] [Thread-1 (]: Began executing node test.wow_model.not_null_stg_emp_hours_emp_id.dd4e1f2387
+[0m01:49:50.024472 [debug] [Thread-1 (]: Writing runtime sql for node "test.wow_model.not_null_stg_emp_hours_emp_id.dd4e1f2387"
+[0m01:49:50.029475 [debug] [Thread-1 (]: Using postgres connection "test.wow_model.not_null_stg_emp_hours_emp_id.dd4e1f2387"
+[0m01:49:50.032480 [debug] [Thread-1 (]: On test.wow_model.not_null_stg_emp_hours_emp_id.dd4e1f2387: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "wow_model_profile", "target_name": "dev", "node_id": "test.wow_model.not_null_stg_emp_hours_emp_id.dd4e1f2387"} */
+
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select emp_id
+from "WoW Model"."raw"."stg_emp_hours"
+where emp_id is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m01:49:50.035488 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m01:49:50.145118 [debug] [Thread-1 (]: SQL status: SELECT 1 in 0.110 seconds
+[0m01:49:50.149880 [debug] [Thread-1 (]: On test.wow_model.not_null_stg_emp_hours_emp_id.dd4e1f2387: ROLLBACK
+[0m01:49:50.151881 [debug] [Thread-1 (]: On test.wow_model.not_null_stg_emp_hours_emp_id.dd4e1f2387: Close
+[0m01:49:50.154883 [info ] [Thread-1 (]: 9 of 15 PASS not_null_stg_emp_hours_emp_id ..................................... [[32mPASS[0m in 0.20s]
+[0m01:49:50.159882 [debug] [Thread-1 (]: Finished running node test.wow_model.not_null_stg_emp_hours_emp_id.dd4e1f2387
+[0m01:49:50.161882 [debug] [Thread-1 (]: Began running node test.wow_model.not_null_stg_emp_hours_emp_name.1fa962fd57
+[0m01:49:50.164098 [info ] [Thread-1 (]: 10 of 15 START test not_null_stg_emp_hours_emp_name ............................ [RUN]
+[0m01:49:50.166631 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.wow_model.not_null_stg_emp_hours_emp_id.dd4e1f2387, now test.wow_model.not_null_stg_emp_hours_emp_name.1fa962fd57)
+[0m01:49:50.168633 [debug] [Thread-1 (]: Began compiling node test.wow_model.not_null_stg_emp_hours_emp_name.1fa962fd57
+[0m01:49:50.182400 [debug] [Thread-1 (]: Writing injected SQL for node "test.wow_model.not_null_stg_emp_hours_emp_name.1fa962fd57"
+[0m01:49:50.185399 [debug] [Thread-1 (]: Began executing node test.wow_model.not_null_stg_emp_hours_emp_name.1fa962fd57
+[0m01:49:50.195443 [debug] [Thread-1 (]: Writing runtime sql for node "test.wow_model.not_null_stg_emp_hours_emp_name.1fa962fd57"
+[0m01:49:50.198978 [debug] [Thread-1 (]: Using postgres connection "test.wow_model.not_null_stg_emp_hours_emp_name.1fa962fd57"
+[0m01:49:50.200979 [debug] [Thread-1 (]: On test.wow_model.not_null_stg_emp_hours_emp_name.1fa962fd57: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "wow_model_profile", "target_name": "dev", "node_id": "test.wow_model.not_null_stg_emp_hours_emp_name.1fa962fd57"} */
+
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select emp_name
+from "WoW Model"."raw"."stg_emp_hours"
+where emp_name is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m01:49:50.202979 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m01:49:50.300612 [debug] [Thread-1 (]: SQL status: SELECT 1 in 0.098 seconds
+[0m01:49:50.306389 [debug] [Thread-1 (]: On test.wow_model.not_null_stg_emp_hours_emp_name.1fa962fd57: ROLLBACK
+[0m01:49:50.308386 [debug] [Thread-1 (]: On test.wow_model.not_null_stg_emp_hours_emp_name.1fa962fd57: Close
+[0m01:49:50.310390 [info ] [Thread-1 (]: 10 of 15 PASS not_null_stg_emp_hours_emp_name .................................. [[32mPASS[0m in 0.14s]
+[0m01:49:50.314388 [debug] [Thread-1 (]: Finished running node test.wow_model.not_null_stg_emp_hours_emp_name.1fa962fd57
+[0m01:49:50.317387 [debug] [Thread-1 (]: Began running node test.wow_model.not_null_stg_emp_hours_week_start.d748bc7fe7
+[0m01:49:50.319390 [info ] [Thread-1 (]: 11 of 15 START test not_null_stg_emp_hours_week_start .......................... [RUN]
+[0m01:49:50.322063 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.wow_model.not_null_stg_emp_hours_emp_name.1fa962fd57, now test.wow_model.not_null_stg_emp_hours_week_start.d748bc7fe7)
+[0m01:49:50.325063 [debug] [Thread-1 (]: Began compiling node test.wow_model.not_null_stg_emp_hours_week_start.d748bc7fe7
+[0m01:49:50.343087 [debug] [Thread-1 (]: Writing injected SQL for node "test.wow_model.not_null_stg_emp_hours_week_start.d748bc7fe7"
+[0m01:49:50.346629 [debug] [Thread-1 (]: Began executing node test.wow_model.not_null_stg_emp_hours_week_start.d748bc7fe7
+[0m01:49:50.357337 [debug] [Thread-1 (]: Writing runtime sql for node "test.wow_model.not_null_stg_emp_hours_week_start.d748bc7fe7"
+[0m01:49:50.361338 [debug] [Thread-1 (]: Using postgres connection "test.wow_model.not_null_stg_emp_hours_week_start.d748bc7fe7"
+[0m01:49:50.363339 [debug] [Thread-1 (]: On test.wow_model.not_null_stg_emp_hours_week_start.d748bc7fe7: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "wow_model_profile", "target_name": "dev", "node_id": "test.wow_model.not_null_stg_emp_hours_week_start.d748bc7fe7"} */
+
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select week_start
+from "WoW Model"."raw"."stg_emp_hours"
+where week_start is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m01:49:50.366339 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m01:49:50.470875 [debug] [Thread-1 (]: SQL status: SELECT 1 in 0.105 seconds
+[0m01:49:50.475872 [debug] [Thread-1 (]: On test.wow_model.not_null_stg_emp_hours_week_start.d748bc7fe7: ROLLBACK
+[0m01:49:50.477737 [debug] [Thread-1 (]: On test.wow_model.not_null_stg_emp_hours_week_start.d748bc7fe7: Close
+[0m01:49:50.480739 [info ] [Thread-1 (]: 11 of 15 PASS not_null_stg_emp_hours_week_start ................................ [[32mPASS[0m in 0.16s]
+[0m01:49:50.484734 [debug] [Thread-1 (]: Finished running node test.wow_model.not_null_stg_emp_hours_week_start.d748bc7fe7
+[0m01:49:50.487734 [debug] [Thread-1 (]: Began running node test.wow_model.not_null_transform_emp_hours_current_week_total_hours.d566749ace
+[0m01:49:50.489734 [info ] [Thread-1 (]: 12 of 15 START test not_null_transform_emp_hours_current_week_total_hours ...... [RUN]
+[0m01:49:50.492993 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.wow_model.not_null_stg_emp_hours_week_start.d748bc7fe7, now test.wow_model.not_null_transform_emp_hours_current_week_total_hours.d566749ace)
+[0m01:49:50.495530 [debug] [Thread-1 (]: Began compiling node test.wow_model.not_null_transform_emp_hours_current_week_total_hours.d566749ace
+[0m01:49:50.507523 [debug] [Thread-1 (]: Writing injected SQL for node "test.wow_model.not_null_transform_emp_hours_current_week_total_hours.d566749ace"
+[0m01:49:50.511462 [debug] [Thread-1 (]: Began executing node test.wow_model.not_null_transform_emp_hours_current_week_total_hours.d566749ace
+[0m01:49:50.518463 [debug] [Thread-1 (]: Writing runtime sql for node "test.wow_model.not_null_transform_emp_hours_current_week_total_hours.d566749ace"
+[0m01:49:50.522461 [debug] [Thread-1 (]: Using postgres connection "test.wow_model.not_null_transform_emp_hours_current_week_total_hours.d566749ace"
+[0m01:49:50.524774 [debug] [Thread-1 (]: On test.wow_model.not_null_transform_emp_hours_current_week_total_hours.d566749ace: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "wow_model_profile", "target_name": "dev", "node_id": "test.wow_model.not_null_transform_emp_hours_current_week_total_hours.d566749ace"} */
+
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select current_week_total_hours
+from "WoW Model"."raw"."transform_emp_hours"
+where current_week_total_hours is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m01:49:50.527310 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m01:49:50.618241 [debug] [Thread-1 (]: SQL status: SELECT 1 in 0.092 seconds
+[0m01:49:50.626242 [debug] [Thread-1 (]: On test.wow_model.not_null_transform_emp_hours_current_week_total_hours.d566749ace: ROLLBACK
+[0m01:49:50.628238 [debug] [Thread-1 (]: On test.wow_model.not_null_transform_emp_hours_current_week_total_hours.d566749ace: Close
+[0m01:49:50.632240 [info ] [Thread-1 (]: 12 of 15 PASS not_null_transform_emp_hours_current_week_total_hours ............ [[32mPASS[0m in 0.14s]
+[0m01:49:50.636958 [debug] [Thread-1 (]: Finished running node test.wow_model.not_null_transform_emp_hours_current_week_total_hours.d566749ace
+[0m01:49:50.639963 [debug] [Thread-1 (]: Began running node test.wow_model.not_null_transform_emp_hours_emp_id.f19e22972f
+[0m01:49:50.640952 [info ] [Thread-1 (]: 13 of 15 START test not_null_transform_emp_hours_emp_id ........................ [RUN]
+[0m01:49:50.643954 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.wow_model.not_null_transform_emp_hours_current_week_total_hours.d566749ace, now test.wow_model.not_null_transform_emp_hours_emp_id.f19e22972f)
+[0m01:49:50.645954 [debug] [Thread-1 (]: Began compiling node test.wow_model.not_null_transform_emp_hours_emp_id.f19e22972f
+[0m01:49:50.662798 [debug] [Thread-1 (]: Writing injected SQL for node "test.wow_model.not_null_transform_emp_hours_emp_id.f19e22972f"
+[0m01:49:50.665527 [debug] [Thread-1 (]: Began executing node test.wow_model.not_null_transform_emp_hours_emp_id.f19e22972f
+[0m01:49:50.677521 [debug] [Thread-1 (]: Writing runtime sql for node "test.wow_model.not_null_transform_emp_hours_emp_id.f19e22972f"
+[0m01:49:50.682298 [debug] [Thread-1 (]: Using postgres connection "test.wow_model.not_null_transform_emp_hours_emp_id.f19e22972f"
+[0m01:49:50.684295 [debug] [Thread-1 (]: On test.wow_model.not_null_transform_emp_hours_emp_id.f19e22972f: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "wow_model_profile", "target_name": "dev", "node_id": "test.wow_model.not_null_transform_emp_hours_emp_id.f19e22972f"} */
+
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select emp_id
+from "WoW Model"."raw"."transform_emp_hours"
+where emp_id is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m01:49:50.687296 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m01:49:50.787353 [debug] [Thread-1 (]: SQL status: SELECT 1 in 0.100 seconds
+[0m01:49:50.793966 [debug] [Thread-1 (]: On test.wow_model.not_null_transform_emp_hours_emp_id.f19e22972f: ROLLBACK
+[0m01:49:50.796967 [debug] [Thread-1 (]: On test.wow_model.not_null_transform_emp_hours_emp_id.f19e22972f: Close
+[0m01:49:50.799965 [info ] [Thread-1 (]: 13 of 15 PASS not_null_transform_emp_hours_emp_id .............................. [[32mPASS[0m in 0.16s]
+[0m01:49:50.803970 [debug] [Thread-1 (]: Finished running node test.wow_model.not_null_transform_emp_hours_emp_id.f19e22972f
+[0m01:49:50.806746 [debug] [Thread-1 (]: Began running node test.wow_model.not_null_transform_emp_hours_emp_name.d2eb5a493e
+[0m01:49:50.808725 [info ] [Thread-1 (]: 14 of 15 START test not_null_transform_emp_hours_emp_name ...................... [RUN]
+[0m01:49:50.812724 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.wow_model.not_null_transform_emp_hours_emp_id.f19e22972f, now test.wow_model.not_null_transform_emp_hours_emp_name.d2eb5a493e)
+[0m01:49:50.814726 [debug] [Thread-1 (]: Began compiling node test.wow_model.not_null_transform_emp_hours_emp_name.d2eb5a493e
+[0m01:49:50.832568 [debug] [Thread-1 (]: Writing injected SQL for node "test.wow_model.not_null_transform_emp_hours_emp_name.d2eb5a493e"
+[0m01:49:50.836960 [debug] [Thread-1 (]: Began executing node test.wow_model.not_null_transform_emp_hours_emp_name.d2eb5a493e
+[0m01:49:50.848488 [debug] [Thread-1 (]: Writing runtime sql for node "test.wow_model.not_null_transform_emp_hours_emp_name.d2eb5a493e"
+[0m01:49:50.852488 [debug] [Thread-1 (]: Using postgres connection "test.wow_model.not_null_transform_emp_hours_emp_name.d2eb5a493e"
+[0m01:49:50.855032 [debug] [Thread-1 (]: On test.wow_model.not_null_transform_emp_hours_emp_name.d2eb5a493e: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "wow_model_profile", "target_name": "dev", "node_id": "test.wow_model.not_null_transform_emp_hours_emp_name.d2eb5a493e"} */
+
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select emp_name
+from "WoW Model"."raw"."transform_emp_hours"
+where emp_name is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m01:49:50.858027 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m01:49:51.076754 [debug] [Thread-1 (]: SQL status: SELECT 1 in 0.219 seconds
+[0m01:49:51.081752 [debug] [Thread-1 (]: On test.wow_model.not_null_transform_emp_hours_emp_name.d2eb5a493e: ROLLBACK
+[0m01:49:51.083754 [debug] [Thread-1 (]: On test.wow_model.not_null_transform_emp_hours_emp_name.d2eb5a493e: Close
+[0m01:49:51.086757 [info ] [Thread-1 (]: 14 of 15 PASS not_null_transform_emp_hours_emp_name ............................ [[32mPASS[0m in 0.27s]
+[0m01:49:51.091193 [debug] [Thread-1 (]: Finished running node test.wow_model.not_null_transform_emp_hours_emp_name.d2eb5a493e
+[0m01:49:51.094189 [debug] [Thread-1 (]: Began running node test.wow_model.not_null_transform_emp_hours_week_start.d675a59ca7
+[0m01:49:51.096188 [info ] [Thread-1 (]: 15 of 15 START test not_null_transform_emp_hours_week_start .................... [RUN]
+[0m01:49:51.099190 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.wow_model.not_null_transform_emp_hours_emp_name.d2eb5a493e, now test.wow_model.not_null_transform_emp_hours_week_start.d675a59ca7)
+[0m01:49:51.101190 [debug] [Thread-1 (]: Began compiling node test.wow_model.not_null_transform_emp_hours_week_start.d675a59ca7
+[0m01:49:51.117996 [debug] [Thread-1 (]: Writing injected SQL for node "test.wow_model.not_null_transform_emp_hours_week_start.d675a59ca7"
+[0m01:49:51.122000 [debug] [Thread-1 (]: Began executing node test.wow_model.not_null_transform_emp_hours_week_start.d675a59ca7
+[0m01:49:51.134002 [debug] [Thread-1 (]: Writing runtime sql for node "test.wow_model.not_null_transform_emp_hours_week_start.d675a59ca7"
+[0m01:49:51.138003 [debug] [Thread-1 (]: Using postgres connection "test.wow_model.not_null_transform_emp_hours_week_start.d675a59ca7"
+[0m01:49:51.140005 [debug] [Thread-1 (]: On test.wow_model.not_null_transform_emp_hours_week_start.d675a59ca7: /* {"app": "dbt", "dbt_version": "1.11.2", "profile_name": "wow_model_profile", "target_name": "dev", "node_id": "test.wow_model.not_null_transform_emp_hours_week_start.d675a59ca7"} */
+
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select week_start
+from "WoW Model"."raw"."transform_emp_hours"
+where week_start is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m01:49:51.142003 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m01:49:51.249929 [debug] [Thread-1 (]: SQL status: SELECT 1 in 0.109 seconds
+[0m01:49:51.253929 [debug] [Thread-1 (]: On test.wow_model.not_null_transform_emp_hours_week_start.d675a59ca7: ROLLBACK
+[0m01:49:51.254928 [debug] [Thread-1 (]: On test.wow_model.not_null_transform_emp_hours_week_start.d675a59ca7: Close
+[0m01:49:51.258932 [info ] [Thread-1 (]: 15 of 15 PASS not_null_transform_emp_hours_week_start .......................... [[32mPASS[0m in 0.16s]
+[0m01:49:51.264642 [debug] [Thread-1 (]: Finished running node test.wow_model.not_null_transform_emp_hours_week_start.d675a59ca7
+[0m01:49:51.267631 [debug] [MainThread]: On master: COMMIT
+[0m01:49:51.268635 [debug] [MainThread]: Using postgres connection "master"
+[0m01:49:51.269636 [debug] [MainThread]: On master: COMMIT
+[0m01:49:51.270634 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m01:49:51.374400 [debug] [MainThread]: SQL status: COMMIT in 0.103 seconds
+[0m01:49:51.376399 [debug] [MainThread]: On master: Close
+[0m01:49:51.378395 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m01:49:51.380405 [debug] [MainThread]: Connection 'list_WoW Model_raw' was properly closed.
+[0m01:49:51.382398 [debug] [MainThread]: Connection 'test.wow_model.not_null_transform_emp_hours_week_start.d675a59ca7' was properly closed.
+[0m01:49:51.385407 [info ] [MainThread]: 
+[0m01:49:51.387583 [info ] [MainThread]: Finished running 15 data tests in 0 hours 0 minutes and 3.80 seconds (3.80s).
+[0m01:49:51.402484 [debug] [MainThread]: Command end result
+[0m01:49:51.530836 [debug] [MainThread]: Wrote artifact WritableManifest to C:\emp_analytics\WoW_Model\target\manifest.json
+[0m01:49:51.539840 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\emp_analytics\WoW_Model\target\semantic_manifest.json
+[0m01:49:51.574635 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\emp_analytics\WoW_Model\target\run_results.json
+[0m01:49:51.576634 [info ] [MainThread]: 
+[0m01:49:51.579635 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m01:49:51.582637 [info ] [MainThread]: 
+[0m01:49:51.585638 [info ] [MainThread]: Done. PASS=15 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=15
+[0m01:49:51.588805 [warn ] [MainThread]: [[33mWARNING[0m][DeprecationsSummary]: Deprecated functionality
+Summary of encountered deprecations:
+- ConfigSourcePathDeprecation: 1 occurrence
+- ConfigDataPathDeprecation: 1 occurrence
+To see all deprecation instances instead of just the first occurrence of each,
+run command again with the `--show-all-deprecations` flag. You may also need to
+run with `--no-partial-parse` as some deprecations are only encountered during
+parsing.
+[0m01:49:51.594335 [debug] [MainThread]: Command `dbt test` succeeded at 01:49:51.594335 after 8.01 seconds
+[0m01:49:51.597344 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022E9CF34CD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022E9E1AB0D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022E9CD61240>]}
+[0m01:49:51.599337 [debug] [MainThread]: Flushing usage events
+[0m01:49:52.589881 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m05:51:06.720841 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001760D34AC80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001760F6610F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001760F660F10>]}
+
+
+============================== 05:51:06.731608 | 93ca5c24-3bb0-449c-8f38-693263d450c1 ==============================
+[0m05:51:06.731608 [info ] [MainThread]: Running with dbt=1.10.17
+[0m05:51:06.733540 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\mayur\\AppData\\Roaming\\dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt run', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'C:\\emp_analytics\\WoW_Model\\logs'}
+[0m05:51:07.184972 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+The `source-paths` config has been renamed to `model-paths`. Please update your
+`dbt_project.yml` configuration to reflect this change.
+[0m05:51:07.186972 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': '93ca5c24-3bb0-449c-8f38-693263d450c1', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001760F613E80>]}
+[0m05:51:07.188941 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+The `data-paths` config has been renamed to `seed-paths`. Please update your
+`dbt_project.yml` configuration to reflect this change.
+[0m05:51:07.190942 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': '93ca5c24-3bb0-449c-8f38-693263d450c1', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001760F613460>]}
+[0m05:51:07.706136 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '93ca5c24-3bb0-449c-8f38-693263d450c1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001760F85AD70>]}
+[0m05:51:07.905016 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '93ca5c24-3bb0-449c-8f38-693263d450c1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001760F636380>]}
+[0m05:51:07.907924 [info ] [MainThread]: Registered adapter: postgres=1.10.0
+[0m05:51:08.777321 [debug] [MainThread]: checksum: a50d730a31f4c1af850aa8110f398f1e1657a0325ec5753dae2929b817189a3e, vars: {}, profile: , target: , version: 1.10.17
+[0m05:51:09.162238 [info ] [MainThread]: Unable to do partial parsing because of a version mismatch
+[0m05:51:09.164241 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '93ca5c24-3bb0-449c-8f38-693263d450c1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001760EDA30D0>]}
+[0m05:51:13.799520 [warn ] [MainThread]: [[33mWARNING[0m][MissingArgumentsPropertyInGenericTestDeprecation]: Deprecated
+functionality
+Found top-level arguments to test `accepted_values`. Arguments to generic tests
+should be nested under the `arguments` property.`
+[0m05:51:13.800517 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': '93ca5c24-3bb0-449c-8f38-693263d450c1', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017610FF3D30>]}
+[0m05:51:14.517828 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '93ca5c24-3bb0-449c-8f38-693263d450c1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017610B6F5B0>]}
+[0m05:51:14.791391 [debug] [MainThread]: Wrote artifact WritableManifest to C:\emp_analytics\WoW_Model\target\manifest.json
+[0m05:51:14.800395 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\emp_analytics\WoW_Model\target\semantic_manifest.json
+[0m05:51:14.889106 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '93ca5c24-3bb0-449c-8f38-693263d450c1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017610CCA200>]}
+[0m05:51:14.891106 [info ] [MainThread]: Found 4 models, 1 seed, 15 data tests, 1 source, 463 macros
+[0m05:51:14.892103 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '93ca5c24-3bb0-449c-8f38-693263d450c1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017610CCBF40>]}
+[0m05:51:14.896105 [info ] [MainThread]: 
+[0m05:51:14.898102 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m05:51:14.900102 [info ] [MainThread]: 
+[0m05:51:14.901101 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m05:51:14.912101 [debug] [ThreadPool]: Acquiring new postgres connection 'list_WoW Model'
+[0m05:51:21.434406 [debug] [ThreadPool]: Using postgres connection "list_WoW Model"
+[0m05:51:21.435404 [debug] [ThreadPool]: On list_WoW Model: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "wow_model_profile", "target_name": "dev", "connection_name": "list_WoW Model"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m05:51:21.436408 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m05:51:21.544822 [debug] [ThreadPool]: SQL status: SELECT 8 in 0.108 seconds
+[0m05:51:21.547786 [debug] [ThreadPool]: On list_WoW Model: Close
+[0m05:51:21.552789 [debug] [ThreadPool]: Acquiring new postgres connection 'list_WoW Model_raw'
+[0m05:51:21.566791 [debug] [ThreadPool]: Using postgres connection "list_WoW Model_raw"
+[0m05:51:21.567793 [debug] [ThreadPool]: On list_WoW Model_raw: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "wow_model_profile", "target_name": "dev", "connection_name": "list_WoW Model_raw"} */
+select
+      'WoW Model' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'raw'
+    union all
+    select
+      'WoW Model' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'raw'
+    union all
+    select
+      'WoW Model' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'raw'
+  
+[0m05:51:21.568793 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m05:51:21.711967 [debug] [ThreadPool]: SQL status: SELECT 4 in 0.142 seconds
+[0m05:51:21.714930 [debug] [ThreadPool]: On list_WoW Model_raw: ROLLBACK
+[0m05:51:21.716935 [debug] [ThreadPool]: On list_WoW Model_raw: Close
+[0m05:51:21.728930 [debug] [MainThread]: Using postgres connection "master"
+[0m05:51:21.729930 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "wow_model_profile", "target_name": "dev", "connection_name": "master"} */
+select distinct
+        dependent_namespace.nspname as dependent_schema,
+        dependent_class.relname as dependent_name,
+        referenced_namespace.nspname as referenced_schema,
+        referenced_class.relname as referenced_name
+
+    -- Query for views: views are entries in pg_class with an entry in pg_rewrite, but we avoid
+    -- a seq scan on pg_rewrite by leveraging the fact there is an "internal" row in pg_depend for
+    -- the view...
+    from pg_class as dependent_class
+    join pg_namespace as dependent_namespace on dependent_namespace.oid = dependent_class.relnamespace
+    join pg_depend as dependent_depend on dependent_depend.refobjid = dependent_class.oid
+        and dependent_depend.classid = 'pg_rewrite'::regclass
+        and dependent_depend.refclassid = 'pg_class'::regclass
+        and dependent_depend.deptype = 'i'
+
+    -- ... and via pg_depend (that has a row per column, hence the need for "distinct" above, and
+    -- making sure to exclude the internal row to avoid a view appearing to depend on itself)...
+    join pg_depend as joining_depend on joining_depend.objid = dependent_depend.objid
+        and joining_depend.classid = 'pg_rewrite'::regclass
+        and joining_depend.refclassid = 'pg_class'::regclass
+        and joining_depend.refobjid != dependent_depend.refobjid
+
+    -- ... we can find the tables they query from in pg_class, but excluding system tables. Note we
+    -- don't need need to exclude _dependent_ system tables, because they only query from other
+    -- system tables, and so are automatically excluded by excluding _referenced_ system tables
+    join pg_class as referenced_class on referenced_class.oid = joining_depend.refobjid
+    join pg_namespace as referenced_namespace on referenced_namespace.oid = referenced_class.relnamespace
+        and referenced_namespace.nspname != 'information_schema'
+        and referenced_namespace.nspname not like 'pg\_%'
+
+    order by
+        dependent_schema, dependent_name, referenced_schema, referenced_name;
+[0m05:51:21.731934 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m05:51:21.980252 [debug] [MainThread]: SQL status: SELECT 0 in 0.249 seconds
+[0m05:51:21.983286 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '93ca5c24-3bb0-449c-8f38-693263d450c1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001760FB00130>]}
+[0m05:51:21.984290 [debug] [MainThread]: On master: ROLLBACK
+[0m05:51:21.986259 [debug] [MainThread]: On master: COMMIT
+[0m05:51:21.987259 [debug] [MainThread]: Using postgres connection "master"
+[0m05:51:21.988261 [debug] [MainThread]: On master: COMMIT
+[0m05:51:21.990523 [debug] [MainThread]: SQL status: COMMIT in 0.001 seconds
+[0m05:51:21.991578 [debug] [MainThread]: On master: Close
+[0m05:51:22.077140 [debug] [Thread-1 (]: Began running node model.wow_model.raw_emp_hours
+[0m05:51:22.079140 [info ] [Thread-1 (]: 1 of 4 START sql table model raw.raw_emp_hours ................................. [RUN]
+[0m05:51:22.082147 [debug] [Thread-1 (]: Acquiring new postgres connection 'model.wow_model.raw_emp_hours'
+[0m05:51:22.083142 [debug] [Thread-1 (]: Began compiling node model.wow_model.raw_emp_hours
+[0m05:51:22.101137 [debug] [Thread-1 (]: Writing injected SQL for node "model.wow_model.raw_emp_hours"
+[0m05:51:22.104139 [debug] [Thread-1 (]: Began executing node model.wow_model.raw_emp_hours
+[0m05:51:22.185136 [debug] [Thread-1 (]: Writing runtime sql for node "model.wow_model.raw_emp_hours"
+[0m05:51:22.188139 [debug] [Thread-1 (]: Using postgres connection "model.wow_model.raw_emp_hours"
+[0m05:51:22.189137 [debug] [Thread-1 (]: On model.wow_model.raw_emp_hours: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "wow_model_profile", "target_name": "dev", "node_id": "model.wow_model.raw_emp_hours"} */
+
+  
+    
+
+  create  table "WoW Model"."raw"."raw_emp_hours__dbt_tmp"
+  
+  
+    as
+  
+  (
+    
+
+SELECT *
+FROM "WoW Model"."raw"."raw_emp_hours"
+  );
+  
+[0m05:51:22.190141 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m05:51:22.350310 [debug] [Thread-1 (]: SQL status: SELECT 100 in 0.160 seconds
+[0m05:51:22.372312 [debug] [Thread-1 (]: Using postgres connection "model.wow_model.raw_emp_hours"
+[0m05:51:22.374313 [debug] [Thread-1 (]: On model.wow_model.raw_emp_hours: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "wow_model_profile", "target_name": "dev", "node_id": "model.wow_model.raw_emp_hours"} */
+alter table "WoW Model"."raw"."raw_emp_hours" rename to "raw_emp_hours__dbt_backup"
+[0m05:51:22.378657 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.003 seconds
+[0m05:51:22.385616 [debug] [Thread-1 (]: Using postgres connection "model.wow_model.raw_emp_hours"
+[0m05:51:22.387619 [debug] [Thread-1 (]: On model.wow_model.raw_emp_hours: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "wow_model_profile", "target_name": "dev", "node_id": "model.wow_model.raw_emp_hours"} */
+alter table "WoW Model"."raw"."raw_emp_hours__dbt_tmp" rename to "raw_emp_hours"
+[0m05:51:22.389621 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.001 seconds
+[0m05:51:22.422616 [debug] [Thread-1 (]: On model.wow_model.raw_emp_hours: COMMIT
+[0m05:51:22.423620 [debug] [Thread-1 (]: Using postgres connection "model.wow_model.raw_emp_hours"
+[0m05:51:22.425619 [debug] [Thread-1 (]: On model.wow_model.raw_emp_hours: COMMIT
+[0m05:51:22.467653 [debug] [Thread-1 (]: SQL status: COMMIT in 0.041 seconds
+[0m05:51:22.481650 [debug] [Thread-1 (]: Applying DROP to: "WoW Model"."raw"."raw_emp_hours__dbt_backup"
+[0m05:51:22.492652 [debug] [Thread-1 (]: Using postgres connection "model.wow_model.raw_emp_hours"
+[0m05:51:22.494620 [debug] [Thread-1 (]: On model.wow_model.raw_emp_hours: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "wow_model_profile", "target_name": "dev", "node_id": "model.wow_model.raw_emp_hours"} */
+drop table if exists "WoW Model"."raw"."raw_emp_hours__dbt_backup" cascade
+[0m05:51:22.557263 [debug] [Thread-1 (]: SQL status: DROP TABLE in 0.062 seconds
+[0m05:51:22.563286 [debug] [Thread-1 (]: On model.wow_model.raw_emp_hours: Close
+[0m05:51:22.571255 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '93ca5c24-3bb0-449c-8f38-693263d450c1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001760F771CC0>]}
+[0m05:51:22.574255 [info ] [Thread-1 (]: 1 of 4 OK created sql table model raw.raw_emp_hours ............................ [[32mSELECT 100[0m in 0.48s]
+[0m05:51:22.576139 [debug] [Thread-1 (]: Finished running node model.wow_model.raw_emp_hours
+[0m05:51:22.577708 [debug] [Thread-1 (]: Began running node model.wow_model.stg_emp_hours
+[0m05:51:22.579735 [info ] [Thread-1 (]: 2 of 4 START sql table model raw.stg_emp_hours ................................. [RUN]
+[0m05:51:22.582177 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.wow_model.raw_emp_hours, now model.wow_model.stg_emp_hours)
+[0m05:51:22.583175 [debug] [Thread-1 (]: Began compiling node model.wow_model.stg_emp_hours
+[0m05:51:22.589174 [debug] [Thread-1 (]: Writing injected SQL for node "model.wow_model.stg_emp_hours"
+[0m05:51:22.592176 [debug] [Thread-1 (]: Began executing node model.wow_model.stg_emp_hours
+[0m05:51:22.601210 [debug] [Thread-1 (]: Writing runtime sql for node "model.wow_model.stg_emp_hours"
+[0m05:51:22.603211 [debug] [Thread-1 (]: Using postgres connection "model.wow_model.stg_emp_hours"
+[0m05:51:22.604178 [debug] [Thread-1 (]: On model.wow_model.stg_emp_hours: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "wow_model_profile", "target_name": "dev", "node_id": "model.wow_model.stg_emp_hours"} */
+
+  
+    
+
+  create  table "WoW Model"."raw"."stg_emp_hours__dbt_tmp"
+  
+  
+    as
+  
+  (
+    
+
+SELECT emp_id,
+       emp_name,
+	   DATE_TRUNC('week', event_date)::date AS week_start,
+	   COALESCE(hours_worked, 0) AS clean_hours
+FROM "WoW Model"."raw"."raw_emp_hours"
+  );
+  
+[0m05:51:22.606515 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m05:51:22.798879 [debug] [Thread-1 (]: SQL status: SELECT 100 in 0.193 seconds
+[0m05:51:22.805905 [debug] [Thread-1 (]: Using postgres connection "model.wow_model.stg_emp_hours"
+[0m05:51:22.806909 [debug] [Thread-1 (]: On model.wow_model.stg_emp_hours: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "wow_model_profile", "target_name": "dev", "node_id": "model.wow_model.stg_emp_hours"} */
+alter table "WoW Model"."raw"."stg_emp_hours" rename to "stg_emp_hours__dbt_backup"
+[0m05:51:22.808877 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.001 seconds
+[0m05:51:22.815905 [debug] [Thread-1 (]: Using postgres connection "model.wow_model.stg_emp_hours"
+[0m05:51:22.816908 [debug] [Thread-1 (]: On model.wow_model.stg_emp_hours: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "wow_model_profile", "target_name": "dev", "node_id": "model.wow_model.stg_emp_hours"} */
+alter table "WoW Model"."raw"."stg_emp_hours__dbt_tmp" rename to "stg_emp_hours"
+[0m05:51:22.819874 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.001 seconds
+[0m05:51:22.824879 [debug] [Thread-1 (]: On model.wow_model.stg_emp_hours: COMMIT
+[0m05:51:22.825873 [debug] [Thread-1 (]: Using postgres connection "model.wow_model.stg_emp_hours"
+[0m05:51:22.827245 [debug] [Thread-1 (]: On model.wow_model.stg_emp_hours: COMMIT
+[0m05:51:22.830006 [debug] [Thread-1 (]: SQL status: COMMIT in 0.002 seconds
+[0m05:51:22.836072 [debug] [Thread-1 (]: Applying DROP to: "WoW Model"."raw"."stg_emp_hours__dbt_backup"
+[0m05:51:22.838075 [debug] [Thread-1 (]: Using postgres connection "model.wow_model.stg_emp_hours"
+[0m05:51:22.839075 [debug] [Thread-1 (]: On model.wow_model.stg_emp_hours: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "wow_model_profile", "target_name": "dev", "node_id": "model.wow_model.stg_emp_hours"} */
+drop table if exists "WoW Model"."raw"."stg_emp_hours__dbt_backup" cascade
+[0m05:51:22.845040 [debug] [Thread-1 (]: SQL status: DROP TABLE in 0.005 seconds
+[0m05:51:22.849075 [debug] [Thread-1 (]: On model.wow_model.stg_emp_hours: Close
+[0m05:51:22.851047 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '93ca5c24-3bb0-449c-8f38-693263d450c1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001760D20E560>]}
+[0m05:51:22.854041 [info ] [Thread-1 (]: 2 of 4 OK created sql table model raw.stg_emp_hours ............................ [[32mSELECT 100[0m in 0.27s]
+[0m05:51:22.857045 [debug] [Thread-1 (]: Finished running node model.wow_model.stg_emp_hours
+[0m05:51:22.859041 [debug] [Thread-1 (]: Began running node model.wow_model.transform_emp_hours
+[0m05:51:22.861076 [info ] [Thread-1 (]: 3 of 4 START sql table model raw.transform_emp_hours ........................... [RUN]
+[0m05:51:22.863044 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.wow_model.stg_emp_hours, now model.wow_model.transform_emp_hours)
+[0m05:51:22.864042 [debug] [Thread-1 (]: Began compiling node model.wow_model.transform_emp_hours
+[0m05:51:22.872076 [debug] [Thread-1 (]: Writing injected SQL for node "model.wow_model.transform_emp_hours"
+[0m05:51:22.874081 [debug] [Thread-1 (]: Began executing node model.wow_model.transform_emp_hours
+[0m05:51:22.886074 [debug] [Thread-1 (]: Writing runtime sql for node "model.wow_model.transform_emp_hours"
+[0m05:51:22.888079 [debug] [Thread-1 (]: Using postgres connection "model.wow_model.transform_emp_hours"
+[0m05:51:22.890080 [debug] [Thread-1 (]: On model.wow_model.transform_emp_hours: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "wow_model_profile", "target_name": "dev", "node_id": "model.wow_model.transform_emp_hours"} */
+
+  
+    
+
+  create  table "WoW Model"."raw"."transform_emp_hours__dbt_tmp"
+  
+  
+    as
+  
+  (
+    
+
+WITH current_wk_emp_total_hrs AS (
+SELECT emp_id,
+       emp_name,
+	   week_start,
+	   SUM(clean_hours) AS total_hours_worked
+FROM "WoW Model"."raw"."stg_emp_hours"
+GROUP BY emp_id,
+         emp_name,
+		 week_start
+),
+
+prev_wk_emp_total_hrs AS (
+SELECT emp_id,
+       emp_name,
+	   week_start,
+	   total_hours_worked AS current_week_total_hours,
+	   LAG(total_hours_worked) OVER(PARTITION BY emp_id ORDER BY week_start) AS previous_week_total_hours
+FROM current_wk_emp_total_hrs
+)
+
+SELECT emp_id,
+       emp_name,
+	   week_start,
+	   current_week_total_hours,
+	   previous_week_total_hours,
+	   ((current_week_total_hours - previous_week_total_hours) / NULLIF(previous_week_total_hours, 0) * 100) AS percentage_change
+FROM prev_wk_emp_total_hrs
+  );
+  
+[0m05:51:22.891045 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m05:51:23.041123 [debug] [Thread-1 (]: SQL status: SELECT 25 in 0.150 seconds
+[0m05:51:23.048123 [debug] [Thread-1 (]: Using postgres connection "model.wow_model.transform_emp_hours"
+[0m05:51:23.049127 [debug] [Thread-1 (]: On model.wow_model.transform_emp_hours: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "wow_model_profile", "target_name": "dev", "node_id": "model.wow_model.transform_emp_hours"} */
+alter table "WoW Model"."raw"."transform_emp_hours" rename to "transform_emp_hours__dbt_backup"
+[0m05:51:23.051090 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.001 seconds
+[0m05:51:23.058122 [debug] [Thread-1 (]: Using postgres connection "model.wow_model.transform_emp_hours"
+[0m05:51:23.059124 [debug] [Thread-1 (]: On model.wow_model.transform_emp_hours: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "wow_model_profile", "target_name": "dev", "node_id": "model.wow_model.transform_emp_hours"} */
+alter table "WoW Model"."raw"."transform_emp_hours__dbt_tmp" rename to "transform_emp_hours"
+[0m05:51:23.062090 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.001 seconds
+[0m05:51:23.065093 [debug] [Thread-1 (]: On model.wow_model.transform_emp_hours: COMMIT
+[0m05:51:23.067123 [debug] [Thread-1 (]: Using postgres connection "model.wow_model.transform_emp_hours"
+[0m05:51:23.068088 [debug] [Thread-1 (]: On model.wow_model.transform_emp_hours: COMMIT
+[0m05:51:23.070126 [debug] [Thread-1 (]: SQL status: COMMIT in 0.001 seconds
+[0m05:51:23.077121 [debug] [Thread-1 (]: Applying DROP to: "WoW Model"."raw"."transform_emp_hours__dbt_backup"
+[0m05:51:23.079128 [debug] [Thread-1 (]: Using postgres connection "model.wow_model.transform_emp_hours"
+[0m05:51:23.080093 [debug] [Thread-1 (]: On model.wow_model.transform_emp_hours: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "wow_model_profile", "target_name": "dev", "node_id": "model.wow_model.transform_emp_hours"} */
+drop table if exists "WoW Model"."raw"."transform_emp_hours__dbt_backup" cascade
+[0m05:51:23.085082 [debug] [Thread-1 (]: SQL status: DROP TABLE in 0.004 seconds
+[0m05:51:23.089086 [debug] [Thread-1 (]: On model.wow_model.transform_emp_hours: Close
+[0m05:51:23.091051 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '93ca5c24-3bb0-449c-8f38-693263d450c1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001761166EFB0>]}
+[0m05:51:23.094054 [info ] [Thread-1 (]: 3 of 4 OK created sql table model raw.transform_emp_hours ...................... [[32mSELECT 25[0m in 0.23s]
+[0m05:51:23.098093 [debug] [Thread-1 (]: Finished running node model.wow_model.transform_emp_hours
+[0m05:51:23.100053 [debug] [Thread-1 (]: Began running node model.wow_model.kpi_emp_hours
+[0m05:51:23.102088 [info ] [Thread-1 (]: 4 of 4 START sql table model raw.kpi_emp_hours ................................. [RUN]
+[0m05:51:23.104053 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.wow_model.transform_emp_hours, now model.wow_model.kpi_emp_hours)
+[0m05:51:23.106053 [debug] [Thread-1 (]: Began compiling node model.wow_model.kpi_emp_hours
+[0m05:51:23.113085 [debug] [Thread-1 (]: Writing injected SQL for node "model.wow_model.kpi_emp_hours"
+[0m05:51:23.116049 [debug] [Thread-1 (]: Began executing node model.wow_model.kpi_emp_hours
+[0m05:51:23.126082 [debug] [Thread-1 (]: Writing runtime sql for node "model.wow_model.kpi_emp_hours"
+[0m05:51:23.128087 [debug] [Thread-1 (]: Using postgres connection "model.wow_model.kpi_emp_hours"
+[0m05:51:23.130052 [debug] [Thread-1 (]: On model.wow_model.kpi_emp_hours: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "wow_model_profile", "target_name": "dev", "node_id": "model.wow_model.kpi_emp_hours"} */
+
+  
+    
+
+  create  table "WoW Model"."raw"."kpi_emp_hours__dbt_tmp"
+  
+  
+    as
+  
+  (
+    
+
+SELECT emp_id,
+       emp_name,
+	   week_start,
+	   current_week_total_hours,
+	   previous_week_total_hours,
+	   percentage_change,
+	   CASE
+	       WHEN previous_week_total_hours IS NULL THEN 'Insufficient Data'
+		   WHEN percentage_change > 0 THEN 'Improving'
+		   WHEN percentage_change < 0 THEN 'Declining'
+		   ELSE 'Stable'
+	   END AS percentage_change_flag
+FROM "WoW Model"."raw"."transform_emp_hours"
+  );
+  
+[0m05:51:23.131088 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m05:51:23.220082 [debug] [Thread-1 (]: SQL status: SELECT 25 in 0.088 seconds
+[0m05:51:23.231055 [debug] [Thread-1 (]: Using postgres connection "model.wow_model.kpi_emp_hours"
+[0m05:51:23.233056 [debug] [Thread-1 (]: On model.wow_model.kpi_emp_hours: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "wow_model_profile", "target_name": "dev", "node_id": "model.wow_model.kpi_emp_hours"} */
+alter table "WoW Model"."raw"."kpi_emp_hours" rename to "kpi_emp_hours__dbt_backup"
+[0m05:51:23.235081 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.001 seconds
+[0m05:51:23.241086 [debug] [Thread-1 (]: Using postgres connection "model.wow_model.kpi_emp_hours"
+[0m05:51:23.242085 [debug] [Thread-1 (]: On model.wow_model.kpi_emp_hours: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "wow_model_profile", "target_name": "dev", "node_id": "model.wow_model.kpi_emp_hours"} */
+alter table "WoW Model"."raw"."kpi_emp_hours__dbt_tmp" rename to "kpi_emp_hours"
+[0m05:51:23.244054 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.001 seconds
+[0m05:51:23.249083 [debug] [Thread-1 (]: On model.wow_model.kpi_emp_hours: COMMIT
+[0m05:51:23.250049 [debug] [Thread-1 (]: Using postgres connection "model.wow_model.kpi_emp_hours"
+[0m05:51:23.251089 [debug] [Thread-1 (]: On model.wow_model.kpi_emp_hours: COMMIT
+[0m05:51:23.254084 [debug] [Thread-1 (]: SQL status: COMMIT in 0.001 seconds
+[0m05:51:23.259081 [debug] [Thread-1 (]: Applying DROP to: "WoW Model"."raw"."kpi_emp_hours__dbt_backup"
+[0m05:51:23.262053 [debug] [Thread-1 (]: Using postgres connection "model.wow_model.kpi_emp_hours"
+[0m05:51:23.263051 [debug] [Thread-1 (]: On model.wow_model.kpi_emp_hours: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "wow_model_profile", "target_name": "dev", "node_id": "model.wow_model.kpi_emp_hours"} */
+drop table if exists "WoW Model"."raw"."kpi_emp_hours__dbt_backup" cascade
+[0m05:51:23.272052 [debug] [Thread-1 (]: SQL status: DROP TABLE in 0.008 seconds
+[0m05:51:23.275085 [debug] [Thread-1 (]: On model.wow_model.kpi_emp_hours: Close
+[0m05:51:23.278052 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '93ca5c24-3bb0-449c-8f38-693263d450c1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001760F7724A0>]}
+[0m05:51:23.280051 [info ] [Thread-1 (]: 4 of 4 OK created sql table model raw.kpi_emp_hours ............................ [[32mSELECT 25[0m in 0.17s]
+[0m05:51:23.284056 [debug] [Thread-1 (]: Finished running node model.wow_model.kpi_emp_hours
+[0m05:51:23.288059 [debug] [MainThread]: On master: COMMIT
+[0m05:51:23.289055 [debug] [MainThread]: Using postgres connection "master"
+[0m05:51:23.290062 [debug] [MainThread]: On master: COMMIT
+[0m05:51:23.291062 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m05:51:23.367603 [debug] [MainThread]: SQL status: COMMIT in 0.077 seconds
+[0m05:51:23.369593 [debug] [MainThread]: On master: Close
+[0m05:51:23.371598 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m05:51:23.372596 [debug] [MainThread]: Connection 'list_WoW Model' was properly closed.
+[0m05:51:23.373595 [debug] [MainThread]: Connection 'list_WoW Model_raw' was properly closed.
+[0m05:51:23.375593 [debug] [MainThread]: Connection 'model.wow_model.kpi_emp_hours' was properly closed.
+[0m05:51:23.376591 [info ] [MainThread]: 
+[0m05:51:23.378624 [info ] [MainThread]: Finished running 4 table models in 0 hours 0 minutes and 8.48 seconds (8.48s).
+[0m05:51:23.382622 [debug] [MainThread]: Command end result
+[0m05:51:23.439591 [debug] [MainThread]: Wrote artifact WritableManifest to C:\emp_analytics\WoW_Model\target\manifest.json
+[0m05:51:23.444601 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\emp_analytics\WoW_Model\target\semantic_manifest.json
+[0m05:51:23.461628 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\emp_analytics\WoW_Model\target\run_results.json
+[0m05:51:23.462591 [info ] [MainThread]: 
+[0m05:51:23.464592 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m05:51:23.467598 [info ] [MainThread]: 
+[0m05:51:23.469593 [info ] [MainThread]: Done. PASS=4 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=4
+[0m05:51:23.472593 [warn ] [MainThread]: [[33mWARNING[0m][DeprecationsSummary]: Deprecated functionality
+Summary of encountered deprecations:
+- ConfigSourcePathDeprecation: 1 occurrence
+- ConfigDataPathDeprecation: 1 occurrence
+- MissingArgumentsPropertyInGenericTestDeprecation: 1 occurrence
+To see all deprecation instances instead of just the first occurrence of each,
+run command again with the `--show-all-deprecations` flag. You may also need to
+run with `--no-partial-parse` as some deprecations are only encountered during
+parsing.
+[0m05:51:23.475591 [debug] [MainThread]: Command `dbt run` succeeded at 05:51:23.475591 after 17.02 seconds
+[0m05:51:23.476593 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001760D34AC80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017610F25B40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017610F272B0>]}
+[0m05:51:23.478592 [debug] [MainThread]: Flushing usage events
+[0m05:51:24.751469 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m05:51:35.197925 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000207E5BFAC20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000207E6F51210>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000207E6F51030>]}
+
+
+============================== 05:51:35.206706 | 7d3cd680-b3ef-463c-8888-8b014fb0d277 ==============================
+[0m05:51:35.206706 [info ] [MainThread]: Running with dbt=1.10.17
+[0m05:51:35.208674 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\mayur\\AppData\\Roaming\\dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'invocation_command': 'dbt test', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'C:\\emp_analytics\\WoW_Model\\logs'}
+[0m05:51:35.361053 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+The `source-paths` config has been renamed to `model-paths`. Please update your
+`dbt_project.yml` configuration to reflect this change.
+[0m05:51:35.363050 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': '7d3cd680-b3ef-463c-8888-8b014fb0d277', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000207E6EFE2C0>]}
+[0m05:51:35.365047 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+The `data-paths` config has been renamed to `seed-paths`. Please update your
+`dbt_project.yml` configuration to reflect this change.
+[0m05:51:35.367045 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': '7d3cd680-b3ef-463c-8888-8b014fb0d277', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000207E6EFF1C0>]}
+[0m05:51:35.795465 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '7d3cd680-b3ef-463c-8888-8b014fb0d277', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000207E6F50610>]}
+[0m05:51:35.997538 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '7d3cd680-b3ef-463c-8888-8b014fb0d277', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000207E6F48C40>]}
+[0m05:51:36.000672 [info ] [MainThread]: Registered adapter: postgres=1.10.0
+[0m05:51:36.674120 [debug] [MainThread]: checksum: a50d730a31f4c1af850aa8110f398f1e1657a0325ec5753dae2929b817189a3e, vars: {}, profile: , target: , version: 1.10.17
+[0m05:51:37.137791 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m05:51:37.138792 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m05:51:37.302792 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '7d3cd680-b3ef-463c-8888-8b014fb0d277', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000207E86405E0>]}
+[0m05:51:37.640976 [debug] [MainThread]: Wrote artifact WritableManifest to C:\emp_analytics\WoW_Model\target\manifest.json
+[0m05:51:37.645978 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\emp_analytics\WoW_Model\target\semantic_manifest.json
+[0m05:51:37.729960 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '7d3cd680-b3ef-463c-8888-8b014fb0d277', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000207E86656F0>]}
+[0m05:51:37.730953 [info ] [MainThread]: Found 4 models, 1 seed, 15 data tests, 1 source, 463 macros
+[0m05:51:37.732954 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '7d3cd680-b3ef-463c-8888-8b014fb0d277', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000207E8665660>]}
+[0m05:51:37.737985 [info ] [MainThread]: 
+[0m05:51:37.739958 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m05:51:37.741955 [info ] [MainThread]: 
+[0m05:51:37.743955 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m05:51:37.760954 [debug] [ThreadPool]: Acquiring new postgres connection 'list_WoW Model_raw'
+[0m05:51:37.929736 [debug] [ThreadPool]: Using postgres connection "list_WoW Model_raw"
+[0m05:51:37.930741 [debug] [ThreadPool]: On list_WoW Model_raw: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "wow_model_profile", "target_name": "dev", "connection_name": "list_WoW Model_raw"} */
+select
+      'WoW Model' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'raw'
+    union all
+    select
+      'WoW Model' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'raw'
+    union all
+    select
+      'WoW Model' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'raw'
+  
+[0m05:51:37.931740 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m05:51:38.032799 [debug] [ThreadPool]: SQL status: SELECT 4 in 0.100 seconds
+[0m05:51:38.035799 [debug] [ThreadPool]: On list_WoW Model_raw: ROLLBACK
+[0m05:51:38.036799 [debug] [ThreadPool]: On list_WoW Model_raw: Close
+[0m05:51:38.051799 [debug] [MainThread]: Using postgres connection "master"
+[0m05:51:38.052801 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "wow_model_profile", "target_name": "dev", "connection_name": "master"} */
+select distinct
+        dependent_namespace.nspname as dependent_schema,
+        dependent_class.relname as dependent_name,
+        referenced_namespace.nspname as referenced_schema,
+        referenced_class.relname as referenced_name
+
+    -- Query for views: views are entries in pg_class with an entry in pg_rewrite, but we avoid
+    -- a seq scan on pg_rewrite by leveraging the fact there is an "internal" row in pg_depend for
+    -- the view...
+    from pg_class as dependent_class
+    join pg_namespace as dependent_namespace on dependent_namespace.oid = dependent_class.relnamespace
+    join pg_depend as dependent_depend on dependent_depend.refobjid = dependent_class.oid
+        and dependent_depend.classid = 'pg_rewrite'::regclass
+        and dependent_depend.refclassid = 'pg_class'::regclass
+        and dependent_depend.deptype = 'i'
+
+    -- ... and via pg_depend (that has a row per column, hence the need for "distinct" above, and
+    -- making sure to exclude the internal row to avoid a view appearing to depend on itself)...
+    join pg_depend as joining_depend on joining_depend.objid = dependent_depend.objid
+        and joining_depend.classid = 'pg_rewrite'::regclass
+        and joining_depend.refclassid = 'pg_class'::regclass
+        and joining_depend.refobjid != dependent_depend.refobjid
+
+    -- ... we can find the tables they query from in pg_class, but excluding system tables. Note we
+    -- don't need need to exclude _dependent_ system tables, because they only query from other
+    -- system tables, and so are automatically excluded by excluding _referenced_ system tables
+    join pg_class as referenced_class on referenced_class.oid = joining_depend.refobjid
+    join pg_namespace as referenced_namespace on referenced_namespace.oid = referenced_class.relnamespace
+        and referenced_namespace.nspname != 'information_schema'
+        and referenced_namespace.nspname not like 'pg\_%'
+
+    order by
+        dependent_schema, dependent_name, referenced_schema, referenced_name;
+[0m05:51:38.054800 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m05:51:38.146492 [debug] [MainThread]: SQL status: SELECT 0 in 0.092 seconds
+[0m05:51:38.149181 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '7d3cd680-b3ef-463c-8888-8b014fb0d277', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000207E8667940>]}
+[0m05:51:38.150798 [debug] [MainThread]: On master: ROLLBACK
+[0m05:51:38.152434 [debug] [MainThread]: On master: COMMIT
+[0m05:51:38.153542 [debug] [MainThread]: Using postgres connection "master"
+[0m05:51:38.154629 [debug] [MainThread]: On master: COMMIT
+[0m05:51:38.156163 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m05:51:38.157166 [debug] [MainThread]: On master: Close
+[0m05:51:38.167164 [debug] [Thread-1 (]: Began running node test.wow_model.accepted_values_kpi_emp_hours_percentage_change_flag__Improving__Declining__Stable__Insufficient_Data.5485365550
+[0m05:51:38.169174 [info ] [Thread-1 (]: 1 of 15 START test accepted_values_kpi_emp_hours_percentage_change_flag__Improving__Declining__Stable__Insufficient_Data  [RUN]
+[0m05:51:38.171165 [debug] [Thread-1 (]: Acquiring new postgres connection 'test.wow_model.accepted_values_kpi_emp_hours_percentage_change_flag__Improving__Declining__Stable__Insufficient_Data.5485365550'
+[0m05:51:38.173167 [debug] [Thread-1 (]: Began compiling node test.wow_model.accepted_values_kpi_emp_hours_percentage_change_flag__Improving__Declining__Stable__Insufficient_Data.5485365550
+[0m05:51:38.212168 [debug] [Thread-1 (]: Writing injected SQL for node "test.wow_model.accepted_values_kpi_emp_hours_percentage_change_flag__Improving__Declining__Stable__Insufficient_Data.5485365550"
+[0m05:51:38.214169 [debug] [Thread-1 (]: Began executing node test.wow_model.accepted_values_kpi_emp_hours_percentage_change_flag__Improving__Declining__Stable__Insufficient_Data.5485365550
+[0m05:51:38.256166 [debug] [Thread-1 (]: Writing runtime sql for node "test.wow_model.accepted_values_kpi_emp_hours_percentage_change_flag__Improving__Declining__Stable__Insufficient_Data.5485365550"
+[0m05:51:38.259202 [debug] [Thread-1 (]: Using postgres connection "test.wow_model.accepted_values_kpi_emp_hours_percentage_change_flag__Improving__Declining__Stable__Insufficient_Data.5485365550"
+[0m05:51:38.260205 [debug] [Thread-1 (]: On test.wow_model.accepted_values_kpi_emp_hours_percentage_change_flag__Improving__Declining__Stable__Insufficient_Data.5485365550: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "wow_model_profile", "target_name": "dev", "node_id": "test.wow_model.accepted_values_kpi_emp_hours_percentage_change_flag__Improving__Declining__Stable__Insufficient_Data.5485365550"} */
+
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+with all_values as (
+
+    select
+        percentage_change_flag as value_field,
+        count(*) as n_records
+
+    from "WoW Model"."raw"."kpi_emp_hours"
+    group by percentage_change_flag
+
+)
+
+select *
+from all_values
+where value_field not in (
+    'Improving','Declining','Stable','Insufficient Data'
+)
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m05:51:38.262204 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m05:51:38.341533 [debug] [Thread-1 (]: SQL status: SELECT 1 in 0.080 seconds
+[0m05:51:38.352049 [debug] [Thread-1 (]: On test.wow_model.accepted_values_kpi_emp_hours_percentage_change_flag__Improving__Declining__Stable__Insufficient_Data.5485365550: ROLLBACK
+[0m05:51:38.353048 [debug] [Thread-1 (]: On test.wow_model.accepted_values_kpi_emp_hours_percentage_change_flag__Improving__Declining__Stable__Insufficient_Data.5485365550: Close
+[0m05:51:38.356017 [info ] [Thread-1 (]: 1 of 15 PASS accepted_values_kpi_emp_hours_percentage_change_flag__Improving__Declining__Stable__Insufficient_Data  [[32mPASS[0m in 0.18s]
+[0m05:51:38.359019 [debug] [Thread-1 (]: Finished running node test.wow_model.accepted_values_kpi_emp_hours_percentage_change_flag__Improving__Declining__Stable__Insufficient_Data.5485365550
+[0m05:51:38.361020 [debug] [Thread-1 (]: Began running node test.wow_model.not_null_kpi_emp_hours_emp_id.6ea5b523fe
+[0m05:51:38.362018 [info ] [Thread-1 (]: 2 of 15 START test not_null_kpi_emp_hours_emp_id ............................... [RUN]
+[0m05:51:38.364801 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.wow_model.accepted_values_kpi_emp_hours_percentage_change_flag__Improving__Declining__Stable__Insufficient_Data.5485365550, now test.wow_model.not_null_kpi_emp_hours_emp_id.6ea5b523fe)
+[0m05:51:38.366832 [debug] [Thread-1 (]: Began compiling node test.wow_model.not_null_kpi_emp_hours_emp_id.6ea5b523fe
+[0m05:51:38.381700 [debug] [Thread-1 (]: Writing injected SQL for node "test.wow_model.not_null_kpi_emp_hours_emp_id.6ea5b523fe"
+[0m05:51:38.384690 [debug] [Thread-1 (]: Began executing node test.wow_model.not_null_kpi_emp_hours_emp_id.6ea5b523fe
+[0m05:51:38.390694 [debug] [Thread-1 (]: Writing runtime sql for node "test.wow_model.not_null_kpi_emp_hours_emp_id.6ea5b523fe"
+[0m05:51:38.393694 [debug] [Thread-1 (]: Using postgres connection "test.wow_model.not_null_kpi_emp_hours_emp_id.6ea5b523fe"
+[0m05:51:38.395369 [debug] [Thread-1 (]: On test.wow_model.not_null_kpi_emp_hours_emp_id.6ea5b523fe: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "wow_model_profile", "target_name": "dev", "node_id": "test.wow_model.not_null_kpi_emp_hours_emp_id.6ea5b523fe"} */
+
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select emp_id
+from "WoW Model"."raw"."kpi_emp_hours"
+where emp_id is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m05:51:38.396939 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m05:51:38.472760 [debug] [Thread-1 (]: SQL status: SELECT 1 in 0.076 seconds
+[0m05:51:38.475818 [debug] [Thread-1 (]: On test.wow_model.not_null_kpi_emp_hours_emp_id.6ea5b523fe: ROLLBACK
+[0m05:51:38.477764 [debug] [Thread-1 (]: On test.wow_model.not_null_kpi_emp_hours_emp_id.6ea5b523fe: Close
+[0m05:51:38.479756 [info ] [Thread-1 (]: 2 of 15 PASS not_null_kpi_emp_hours_emp_id ..................................... [[32mPASS[0m in 0.11s]
+[0m05:51:38.482766 [debug] [Thread-1 (]: Finished running node test.wow_model.not_null_kpi_emp_hours_emp_id.6ea5b523fe
+[0m05:51:38.483759 [debug] [Thread-1 (]: Began running node test.wow_model.not_null_kpi_emp_hours_emp_name.8525e63cf7
+[0m05:51:38.485765 [info ] [Thread-1 (]: 3 of 15 START test not_null_kpi_emp_hours_emp_name ............................. [RUN]
+[0m05:51:38.488434 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.wow_model.not_null_kpi_emp_hours_emp_id.6ea5b523fe, now test.wow_model.not_null_kpi_emp_hours_emp_name.8525e63cf7)
+[0m05:51:38.489433 [debug] [Thread-1 (]: Began compiling node test.wow_model.not_null_kpi_emp_hours_emp_name.8525e63cf7
+[0m05:51:38.498430 [debug] [Thread-1 (]: Writing injected SQL for node "test.wow_model.not_null_kpi_emp_hours_emp_name.8525e63cf7"
+[0m05:51:38.501431 [debug] [Thread-1 (]: Began executing node test.wow_model.not_null_kpi_emp_hours_emp_name.8525e63cf7
+[0m05:51:38.508160 [debug] [Thread-1 (]: Writing runtime sql for node "test.wow_model.not_null_kpi_emp_hours_emp_name.8525e63cf7"
+[0m05:51:38.510156 [debug] [Thread-1 (]: Using postgres connection "test.wow_model.not_null_kpi_emp_hours_emp_name.8525e63cf7"
+[0m05:51:38.511164 [debug] [Thread-1 (]: On test.wow_model.not_null_kpi_emp_hours_emp_name.8525e63cf7: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "wow_model_profile", "target_name": "dev", "node_id": "test.wow_model.not_null_kpi_emp_hours_emp_name.8525e63cf7"} */
+
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select emp_name
+from "WoW Model"."raw"."kpi_emp_hours"
+where emp_name is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m05:51:38.513158 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m05:51:38.688707 [debug] [Thread-1 (]: SQL status: SELECT 1 in 0.176 seconds
+[0m05:51:38.692397 [debug] [Thread-1 (]: On test.wow_model.not_null_kpi_emp_hours_emp_name.8525e63cf7: ROLLBACK
+[0m05:51:38.693390 [debug] [Thread-1 (]: On test.wow_model.not_null_kpi_emp_hours_emp_name.8525e63cf7: Close
+[0m05:51:38.696395 [info ] [Thread-1 (]: 3 of 15 PASS not_null_kpi_emp_hours_emp_name ................................... [[32mPASS[0m in 0.21s]
+[0m05:51:38.699391 [debug] [Thread-1 (]: Finished running node test.wow_model.not_null_kpi_emp_hours_emp_name.8525e63cf7
+[0m05:51:38.701488 [debug] [Thread-1 (]: Began running node test.wow_model.not_null_kpi_emp_hours_week_start.1ebbb6c0ab
+[0m05:51:38.703394 [info ] [Thread-1 (]: 4 of 15 START test not_null_kpi_emp_hours_week_start ........................... [RUN]
+[0m05:51:38.705348 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.wow_model.not_null_kpi_emp_hours_emp_name.8525e63cf7, now test.wow_model.not_null_kpi_emp_hours_week_start.1ebbb6c0ab)
+[0m05:51:38.706351 [debug] [Thread-1 (]: Began compiling node test.wow_model.not_null_kpi_emp_hours_week_start.1ebbb6c0ab
+[0m05:51:38.716169 [debug] [Thread-1 (]: Writing injected SQL for node "test.wow_model.not_null_kpi_emp_hours_week_start.1ebbb6c0ab"
+[0m05:51:38.718155 [debug] [Thread-1 (]: Began executing node test.wow_model.not_null_kpi_emp_hours_week_start.1ebbb6c0ab
+[0m05:51:38.727191 [debug] [Thread-1 (]: Writing runtime sql for node "test.wow_model.not_null_kpi_emp_hours_week_start.1ebbb6c0ab"
+[0m05:51:38.729195 [debug] [Thread-1 (]: Using postgres connection "test.wow_model.not_null_kpi_emp_hours_week_start.1ebbb6c0ab"
+[0m05:51:38.730161 [debug] [Thread-1 (]: On test.wow_model.not_null_kpi_emp_hours_week_start.1ebbb6c0ab: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "wow_model_profile", "target_name": "dev", "node_id": "test.wow_model.not_null_kpi_emp_hours_week_start.1ebbb6c0ab"} */
+
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select week_start
+from "WoW Model"."raw"."kpi_emp_hours"
+where week_start is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m05:51:38.732159 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m05:51:38.907813 [debug] [Thread-1 (]: SQL status: SELECT 1 in 0.176 seconds
+[0m05:51:38.910783 [debug] [Thread-1 (]: On test.wow_model.not_null_kpi_emp_hours_week_start.1ebbb6c0ab: ROLLBACK
+[0m05:51:38.913451 [debug] [Thread-1 (]: On test.wow_model.not_null_kpi_emp_hours_week_start.1ebbb6c0ab: Close
+[0m05:51:38.915449 [info ] [Thread-1 (]: 4 of 15 PASS not_null_kpi_emp_hours_week_start ................................. [[32mPASS[0m in 0.21s]
+[0m05:51:38.918448 [debug] [Thread-1 (]: Finished running node test.wow_model.not_null_kpi_emp_hours_week_start.1ebbb6c0ab
+[0m05:51:38.920448 [debug] [Thread-1 (]: Began running node test.wow_model.not_null_raw_emp_hours_emp_id.9480d1d4b7
+[0m05:51:38.922453 [info ] [Thread-1 (]: 5 of 15 START test not_null_raw_emp_hours_emp_id ............................... [RUN]
+[0m05:51:38.924450 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.wow_model.not_null_kpi_emp_hours_week_start.1ebbb6c0ab, now test.wow_model.not_null_raw_emp_hours_emp_id.9480d1d4b7)
+[0m05:51:38.925448 [debug] [Thread-1 (]: Began compiling node test.wow_model.not_null_raw_emp_hours_emp_id.9480d1d4b7
+[0m05:51:38.935106 [debug] [Thread-1 (]: Writing injected SQL for node "test.wow_model.not_null_raw_emp_hours_emp_id.9480d1d4b7"
+[0m05:51:38.938074 [debug] [Thread-1 (]: Began executing node test.wow_model.not_null_raw_emp_hours_emp_id.9480d1d4b7
+[0m05:51:38.945895 [debug] [Thread-1 (]: Writing runtime sql for node "test.wow_model.not_null_raw_emp_hours_emp_id.9480d1d4b7"
+[0m05:51:38.948895 [debug] [Thread-1 (]: Using postgres connection "test.wow_model.not_null_raw_emp_hours_emp_id.9480d1d4b7"
+[0m05:51:38.949893 [debug] [Thread-1 (]: On test.wow_model.not_null_raw_emp_hours_emp_id.9480d1d4b7: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "wow_model_profile", "target_name": "dev", "node_id": "test.wow_model.not_null_raw_emp_hours_emp_id.9480d1d4b7"} */
+
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select emp_id
+from "WoW Model"."raw"."raw_emp_hours"
+where emp_id is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m05:51:38.950895 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m05:51:39.028329 [debug] [Thread-1 (]: SQL status: SELECT 1 in 0.077 seconds
+[0m05:51:39.031298 [debug] [Thread-1 (]: On test.wow_model.not_null_raw_emp_hours_emp_id.9480d1d4b7: ROLLBACK
+[0m05:51:39.033298 [debug] [Thread-1 (]: On test.wow_model.not_null_raw_emp_hours_emp_id.9480d1d4b7: Close
+[0m05:51:39.035366 [info ] [Thread-1 (]: 5 of 15 PASS not_null_raw_emp_hours_emp_id ..................................... [[32mPASS[0m in 0.11s]
+[0m05:51:39.039296 [debug] [Thread-1 (]: Finished running node test.wow_model.not_null_raw_emp_hours_emp_id.9480d1d4b7
+[0m05:51:39.041297 [debug] [Thread-1 (]: Began running node test.wow_model.not_null_raw_emp_hours_emp_name.b1ac22277d
+[0m05:51:39.042306 [info ] [Thread-1 (]: 6 of 15 START test not_null_raw_emp_hours_emp_name ............................. [RUN]
+[0m05:51:39.044305 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.wow_model.not_null_raw_emp_hours_emp_id.9480d1d4b7, now test.wow_model.not_null_raw_emp_hours_emp_name.b1ac22277d)
+[0m05:51:39.046357 [debug] [Thread-1 (]: Began compiling node test.wow_model.not_null_raw_emp_hours_emp_name.b1ac22277d
+[0m05:51:39.056310 [debug] [Thread-1 (]: Writing injected SQL for node "test.wow_model.not_null_raw_emp_hours_emp_name.b1ac22277d"
+[0m05:51:39.058850 [debug] [Thread-1 (]: Began executing node test.wow_model.not_null_raw_emp_hours_emp_name.b1ac22277d
+[0m05:51:39.063850 [debug] [Thread-1 (]: Writing runtime sql for node "test.wow_model.not_null_raw_emp_hours_emp_name.b1ac22277d"
+[0m05:51:39.065856 [debug] [Thread-1 (]: Using postgres connection "test.wow_model.not_null_raw_emp_hours_emp_name.b1ac22277d"
+[0m05:51:39.067851 [debug] [Thread-1 (]: On test.wow_model.not_null_raw_emp_hours_emp_name.b1ac22277d: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "wow_model_profile", "target_name": "dev", "node_id": "test.wow_model.not_null_raw_emp_hours_emp_name.b1ac22277d"} */
+
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select emp_name
+from "WoW Model"."raw"."raw_emp_hours"
+where emp_name is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m05:51:39.069978 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m05:51:39.147849 [debug] [Thread-1 (]: SQL status: SELECT 1 in 0.078 seconds
+[0m05:51:39.150861 [debug] [Thread-1 (]: On test.wow_model.not_null_raw_emp_hours_emp_name.b1ac22277d: ROLLBACK
+[0m05:51:39.152847 [debug] [Thread-1 (]: On test.wow_model.not_null_raw_emp_hours_emp_name.b1ac22277d: Close
+[0m05:51:39.154848 [info ] [Thread-1 (]: 6 of 15 PASS not_null_raw_emp_hours_emp_name ................................... [[32mPASS[0m in 0.11s]
+[0m05:51:39.158884 [debug] [Thread-1 (]: Finished running node test.wow_model.not_null_raw_emp_hours_emp_name.b1ac22277d
+[0m05:51:39.160507 [debug] [Thread-1 (]: Began running node test.wow_model.not_null_raw_emp_hours_event_date.fa669a7126
+[0m05:51:39.162500 [info ] [Thread-1 (]: 7 of 15 START test not_null_raw_emp_hours_event_date ........................... [RUN]
+[0m05:51:39.164506 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.wow_model.not_null_raw_emp_hours_emp_name.b1ac22277d, now test.wow_model.not_null_raw_emp_hours_event_date.fa669a7126)
+[0m05:51:39.165574 [debug] [Thread-1 (]: Began compiling node test.wow_model.not_null_raw_emp_hours_event_date.fa669a7126
+[0m05:51:39.174540 [debug] [Thread-1 (]: Writing injected SQL for node "test.wow_model.not_null_raw_emp_hours_event_date.fa669a7126"
+[0m05:51:39.177537 [debug] [Thread-1 (]: Began executing node test.wow_model.not_null_raw_emp_hours_event_date.fa669a7126
+[0m05:51:39.186538 [debug] [Thread-1 (]: Writing runtime sql for node "test.wow_model.not_null_raw_emp_hours_event_date.fa669a7126"
+[0m05:51:39.189535 [debug] [Thread-1 (]: Using postgres connection "test.wow_model.not_null_raw_emp_hours_event_date.fa669a7126"
+[0m05:51:39.190534 [debug] [Thread-1 (]: On test.wow_model.not_null_raw_emp_hours_event_date.fa669a7126: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "wow_model_profile", "target_name": "dev", "node_id": "test.wow_model.not_null_raw_emp_hours_event_date.fa669a7126"} */
+
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select event_date
+from "WoW Model"."raw"."raw_emp_hours"
+where event_date is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m05:51:39.191534 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m05:51:39.363831 [debug] [Thread-1 (]: SQL status: SELECT 1 in 0.172 seconds
+[0m05:51:39.366833 [debug] [Thread-1 (]: On test.wow_model.not_null_raw_emp_hours_event_date.fa669a7126: ROLLBACK
+[0m05:51:39.368799 [debug] [Thread-1 (]: On test.wow_model.not_null_raw_emp_hours_event_date.fa669a7126: Close
+[0m05:51:39.370799 [info ] [Thread-1 (]: 7 of 15 PASS not_null_raw_emp_hours_event_date ................................. [[32mPASS[0m in 0.21s]
+[0m05:51:39.374800 [debug] [Thread-1 (]: Finished running node test.wow_model.not_null_raw_emp_hours_event_date.fa669a7126
+[0m05:51:39.376802 [debug] [Thread-1 (]: Began running node test.wow_model.not_null_stg_emp_hours_clean_hours.3f50176955
+[0m05:51:39.377798 [info ] [Thread-1 (]: 8 of 15 START test not_null_stg_emp_hours_clean_hours .......................... [RUN]
+[0m05:51:39.380798 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.wow_model.not_null_raw_emp_hours_event_date.fa669a7126, now test.wow_model.not_null_stg_emp_hours_clean_hours.3f50176955)
+[0m05:51:39.381797 [debug] [Thread-1 (]: Began compiling node test.wow_model.not_null_stg_emp_hours_clean_hours.3f50176955
+[0m05:51:39.391831 [debug] [Thread-1 (]: Writing injected SQL for node "test.wow_model.not_null_stg_emp_hours_clean_hours.3f50176955"
+[0m05:51:39.394798 [debug] [Thread-1 (]: Began executing node test.wow_model.not_null_stg_emp_hours_clean_hours.3f50176955
+[0m05:51:39.400800 [debug] [Thread-1 (]: Writing runtime sql for node "test.wow_model.not_null_stg_emp_hours_clean_hours.3f50176955"
+[0m05:51:39.403803 [debug] [Thread-1 (]: Using postgres connection "test.wow_model.not_null_stg_emp_hours_clean_hours.3f50176955"
+[0m05:51:39.405801 [debug] [Thread-1 (]: On test.wow_model.not_null_stg_emp_hours_clean_hours.3f50176955: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "wow_model_profile", "target_name": "dev", "node_id": "test.wow_model.not_null_stg_emp_hours_clean_hours.3f50176955"} */
+
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select clean_hours
+from "WoW Model"."raw"."stg_emp_hours"
+where clean_hours is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m05:51:39.406798 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m05:51:39.480799 [debug] [Thread-1 (]: SQL status: SELECT 1 in 0.074 seconds
+[0m05:51:39.484798 [debug] [Thread-1 (]: On test.wow_model.not_null_stg_emp_hours_clean_hours.3f50176955: ROLLBACK
+[0m05:51:39.485798 [debug] [Thread-1 (]: On test.wow_model.not_null_stg_emp_hours_clean_hours.3f50176955: Close
+[0m05:51:39.488797 [info ] [Thread-1 (]: 8 of 15 PASS not_null_stg_emp_hours_clean_hours ................................ [[32mPASS[0m in 0.11s]
+[0m05:51:39.491800 [debug] [Thread-1 (]: Finished running node test.wow_model.not_null_stg_emp_hours_clean_hours.3f50176955
+[0m05:51:39.492804 [debug] [Thread-1 (]: Began running node test.wow_model.not_null_stg_emp_hours_emp_id.dd4e1f2387
+[0m05:51:39.494799 [info ] [Thread-1 (]: 9 of 15 START test not_null_stg_emp_hours_emp_id ............................... [RUN]
+[0m05:51:39.496798 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.wow_model.not_null_stg_emp_hours_clean_hours.3f50176955, now test.wow_model.not_null_stg_emp_hours_emp_id.dd4e1f2387)
+[0m05:51:39.497799 [debug] [Thread-1 (]: Began compiling node test.wow_model.not_null_stg_emp_hours_emp_id.dd4e1f2387
+[0m05:51:39.507801 [debug] [Thread-1 (]: Writing injected SQL for node "test.wow_model.not_null_stg_emp_hours_emp_id.dd4e1f2387"
+[0m05:51:39.510800 [debug] [Thread-1 (]: Began executing node test.wow_model.not_null_stg_emp_hours_emp_id.dd4e1f2387
+[0m05:51:39.517801 [debug] [Thread-1 (]: Writing runtime sql for node "test.wow_model.not_null_stg_emp_hours_emp_id.dd4e1f2387"
+[0m05:51:39.521805 [debug] [Thread-1 (]: Using postgres connection "test.wow_model.not_null_stg_emp_hours_emp_id.dd4e1f2387"
+[0m05:51:39.524797 [debug] [Thread-1 (]: On test.wow_model.not_null_stg_emp_hours_emp_id.dd4e1f2387: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "wow_model_profile", "target_name": "dev", "node_id": "test.wow_model.not_null_stg_emp_hours_emp_id.dd4e1f2387"} */
+
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select emp_id
+from "WoW Model"."raw"."stg_emp_hours"
+where emp_id is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m05:51:39.526798 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m05:51:39.625798 [debug] [Thread-1 (]: SQL status: SELECT 1 in 0.099 seconds
+[0m05:51:39.630799 [debug] [Thread-1 (]: On test.wow_model.not_null_stg_emp_hours_emp_id.dd4e1f2387: ROLLBACK
+[0m05:51:39.633804 [debug] [Thread-1 (]: On test.wow_model.not_null_stg_emp_hours_emp_id.dd4e1f2387: Close
+[0m05:51:39.636799 [info ] [Thread-1 (]: 9 of 15 PASS not_null_stg_emp_hours_emp_id ..................................... [[32mPASS[0m in 0.14s]
+[0m05:51:39.640801 [debug] [Thread-1 (]: Finished running node test.wow_model.not_null_stg_emp_hours_emp_id.dd4e1f2387
+[0m05:51:39.642800 [debug] [Thread-1 (]: Began running node test.wow_model.not_null_stg_emp_hours_emp_name.1fa962fd57
+[0m05:51:39.645798 [info ] [Thread-1 (]: 10 of 15 START test not_null_stg_emp_hours_emp_name ............................ [RUN]
+[0m05:51:39.647799 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.wow_model.not_null_stg_emp_hours_emp_id.dd4e1f2387, now test.wow_model.not_null_stg_emp_hours_emp_name.1fa962fd57)
+[0m05:51:39.650800 [debug] [Thread-1 (]: Began compiling node test.wow_model.not_null_stg_emp_hours_emp_name.1fa962fd57
+[0m05:51:39.663798 [debug] [Thread-1 (]: Writing injected SQL for node "test.wow_model.not_null_stg_emp_hours_emp_name.1fa962fd57"
+[0m05:51:39.665800 [debug] [Thread-1 (]: Began executing node test.wow_model.not_null_stg_emp_hours_emp_name.1fa962fd57
+[0m05:51:39.673797 [debug] [Thread-1 (]: Writing runtime sql for node "test.wow_model.not_null_stg_emp_hours_emp_name.1fa962fd57"
+[0m05:51:39.675796 [debug] [Thread-1 (]: Using postgres connection "test.wow_model.not_null_stg_emp_hours_emp_name.1fa962fd57"
+[0m05:51:39.677797 [debug] [Thread-1 (]: On test.wow_model.not_null_stg_emp_hours_emp_name.1fa962fd57: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "wow_model_profile", "target_name": "dev", "node_id": "test.wow_model.not_null_stg_emp_hours_emp_name.1fa962fd57"} */
+
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select emp_name
+from "WoW Model"."raw"."stg_emp_hours"
+where emp_name is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m05:51:39.678796 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m05:51:39.758798 [debug] [Thread-1 (]: SQL status: SELECT 1 in 0.080 seconds
+[0m05:51:39.763797 [debug] [Thread-1 (]: On test.wow_model.not_null_stg_emp_hours_emp_name.1fa962fd57: ROLLBACK
+[0m05:51:39.765800 [debug] [Thread-1 (]: On test.wow_model.not_null_stg_emp_hours_emp_name.1fa962fd57: Close
+[0m05:51:39.768796 [info ] [Thread-1 (]: 10 of 15 PASS not_null_stg_emp_hours_emp_name .................................. [[32mPASS[0m in 0.12s]
+[0m05:51:39.772798 [debug] [Thread-1 (]: Finished running node test.wow_model.not_null_stg_emp_hours_emp_name.1fa962fd57
+[0m05:51:39.774797 [debug] [Thread-1 (]: Began running node test.wow_model.not_null_stg_emp_hours_week_start.d748bc7fe7
+[0m05:51:39.775796 [info ] [Thread-1 (]: 11 of 15 START test not_null_stg_emp_hours_week_start .......................... [RUN]
+[0m05:51:39.777796 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.wow_model.not_null_stg_emp_hours_emp_name.1fa962fd57, now test.wow_model.not_null_stg_emp_hours_week_start.d748bc7fe7)
+[0m05:51:39.778797 [debug] [Thread-1 (]: Began compiling node test.wow_model.not_null_stg_emp_hours_week_start.d748bc7fe7
+[0m05:51:39.791802 [debug] [Thread-1 (]: Writing injected SQL for node "test.wow_model.not_null_stg_emp_hours_week_start.d748bc7fe7"
+[0m05:51:39.794803 [debug] [Thread-1 (]: Began executing node test.wow_model.not_null_stg_emp_hours_week_start.d748bc7fe7
+[0m05:51:39.800795 [debug] [Thread-1 (]: Writing runtime sql for node "test.wow_model.not_null_stg_emp_hours_week_start.d748bc7fe7"
+[0m05:51:39.803798 [debug] [Thread-1 (]: Using postgres connection "test.wow_model.not_null_stg_emp_hours_week_start.d748bc7fe7"
+[0m05:51:39.804795 [debug] [Thread-1 (]: On test.wow_model.not_null_stg_emp_hours_week_start.d748bc7fe7: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "wow_model_profile", "target_name": "dev", "node_id": "test.wow_model.not_null_stg_emp_hours_week_start.d748bc7fe7"} */
+
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select week_start
+from "WoW Model"."raw"."stg_emp_hours"
+where week_start is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m05:51:39.806795 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m05:51:39.883798 [debug] [Thread-1 (]: SQL status: SELECT 1 in 0.077 seconds
+[0m05:51:39.886796 [debug] [Thread-1 (]: On test.wow_model.not_null_stg_emp_hours_week_start.d748bc7fe7: ROLLBACK
+[0m05:51:39.887796 [debug] [Thread-1 (]: On test.wow_model.not_null_stg_emp_hours_week_start.d748bc7fe7: Close
+[0m05:51:39.889799 [info ] [Thread-1 (]: 11 of 15 PASS not_null_stg_emp_hours_week_start ................................ [[32mPASS[0m in 0.11s]
+[0m05:51:39.893800 [debug] [Thread-1 (]: Finished running node test.wow_model.not_null_stg_emp_hours_week_start.d748bc7fe7
+[0m05:51:39.895800 [debug] [Thread-1 (]: Began running node test.wow_model.not_null_transform_emp_hours_current_week_total_hours.d566749ace
+[0m05:51:39.896798 [info ] [Thread-1 (]: 12 of 15 START test not_null_transform_emp_hours_current_week_total_hours ...... [RUN]
+[0m05:51:39.898798 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.wow_model.not_null_stg_emp_hours_week_start.d748bc7fe7, now test.wow_model.not_null_transform_emp_hours_current_week_total_hours.d566749ace)
+[0m05:51:39.899801 [debug] [Thread-1 (]: Began compiling node test.wow_model.not_null_transform_emp_hours_current_week_total_hours.d566749ace
+[0m05:51:39.909796 [debug] [Thread-1 (]: Writing injected SQL for node "test.wow_model.not_null_transform_emp_hours_current_week_total_hours.d566749ace"
+[0m05:51:39.912796 [debug] [Thread-1 (]: Began executing node test.wow_model.not_null_transform_emp_hours_current_week_total_hours.d566749ace
+[0m05:51:39.917794 [debug] [Thread-1 (]: Writing runtime sql for node "test.wow_model.not_null_transform_emp_hours_current_week_total_hours.d566749ace"
+[0m05:51:39.920803 [debug] [Thread-1 (]: Using postgres connection "test.wow_model.not_null_transform_emp_hours_current_week_total_hours.d566749ace"
+[0m05:51:39.922799 [debug] [Thread-1 (]: On test.wow_model.not_null_transform_emp_hours_current_week_total_hours.d566749ace: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "wow_model_profile", "target_name": "dev", "node_id": "test.wow_model.not_null_transform_emp_hours_current_week_total_hours.d566749ace"} */
+
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select current_week_total_hours
+from "WoW Model"."raw"."transform_emp_hours"
+where current_week_total_hours is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m05:51:39.925798 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m05:51:40.002885 [debug] [Thread-1 (]: SQL status: SELECT 1 in 0.078 seconds
+[0m05:51:40.005851 [debug] [Thread-1 (]: On test.wow_model.not_null_transform_emp_hours_current_week_total_hours.d566749ace: ROLLBACK
+[0m05:51:40.007856 [debug] [Thread-1 (]: On test.wow_model.not_null_transform_emp_hours_current_week_total_hours.d566749ace: Close
+[0m05:51:40.009854 [info ] [Thread-1 (]: 12 of 15 PASS not_null_transform_emp_hours_current_week_total_hours ............ [[32mPASS[0m in 0.11s]
+[0m05:51:40.013441 [debug] [Thread-1 (]: Finished running node test.wow_model.not_null_transform_emp_hours_current_week_total_hours.d566749ace
+[0m05:51:40.015433 [debug] [Thread-1 (]: Began running node test.wow_model.not_null_transform_emp_hours_emp_id.f19e22972f
+[0m05:51:40.016434 [info ] [Thread-1 (]: 13 of 15 START test not_null_transform_emp_hours_emp_id ........................ [RUN]
+[0m05:51:40.018435 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.wow_model.not_null_transform_emp_hours_current_week_total_hours.d566749ace, now test.wow_model.not_null_transform_emp_hours_emp_id.f19e22972f)
+[0m05:51:40.020436 [debug] [Thread-1 (]: Began compiling node test.wow_model.not_null_transform_emp_hours_emp_id.f19e22972f
+[0m05:51:40.029436 [debug] [Thread-1 (]: Writing injected SQL for node "test.wow_model.not_null_transform_emp_hours_emp_id.f19e22972f"
+[0m05:51:40.032437 [debug] [Thread-1 (]: Began executing node test.wow_model.not_null_transform_emp_hours_emp_id.f19e22972f
+[0m05:51:40.040434 [debug] [Thread-1 (]: Writing runtime sql for node "test.wow_model.not_null_transform_emp_hours_emp_id.f19e22972f"
+[0m05:51:40.043437 [debug] [Thread-1 (]: Using postgres connection "test.wow_model.not_null_transform_emp_hours_emp_id.f19e22972f"
+[0m05:51:40.044436 [debug] [Thread-1 (]: On test.wow_model.not_null_transform_emp_hours_emp_id.f19e22972f: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "wow_model_profile", "target_name": "dev", "node_id": "test.wow_model.not_null_transform_emp_hours_emp_id.f19e22972f"} */
+
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select emp_id
+from "WoW Model"."raw"."transform_emp_hours"
+where emp_id is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m05:51:40.046436 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m05:51:40.121434 [debug] [Thread-1 (]: SQL status: SELECT 1 in 0.076 seconds
+[0m05:51:40.124434 [debug] [Thread-1 (]: On test.wow_model.not_null_transform_emp_hours_emp_id.f19e22972f: ROLLBACK
+[0m05:51:40.126434 [debug] [Thread-1 (]: On test.wow_model.not_null_transform_emp_hours_emp_id.f19e22972f: Close
+[0m05:51:40.128438 [info ] [Thread-1 (]: 13 of 15 PASS not_null_transform_emp_hours_emp_id .............................. [[32mPASS[0m in 0.11s]
+[0m05:51:40.132438 [debug] [Thread-1 (]: Finished running node test.wow_model.not_null_transform_emp_hours_emp_id.f19e22972f
+[0m05:51:40.133440 [debug] [Thread-1 (]: Began running node test.wow_model.not_null_transform_emp_hours_emp_name.d2eb5a493e
+[0m05:51:40.135436 [info ] [Thread-1 (]: 14 of 15 START test not_null_transform_emp_hours_emp_name ...................... [RUN]
+[0m05:51:40.137434 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.wow_model.not_null_transform_emp_hours_emp_id.f19e22972f, now test.wow_model.not_null_transform_emp_hours_emp_name.d2eb5a493e)
+[0m05:51:40.139434 [debug] [Thread-1 (]: Began compiling node test.wow_model.not_null_transform_emp_hours_emp_name.d2eb5a493e
+[0m05:51:40.152437 [debug] [Thread-1 (]: Writing injected SQL for node "test.wow_model.not_null_transform_emp_hours_emp_name.d2eb5a493e"
+[0m05:51:40.155438 [debug] [Thread-1 (]: Began executing node test.wow_model.not_null_transform_emp_hours_emp_name.d2eb5a493e
+[0m05:51:40.161434 [debug] [Thread-1 (]: Writing runtime sql for node "test.wow_model.not_null_transform_emp_hours_emp_name.d2eb5a493e"
+[0m05:51:40.163998 [debug] [Thread-1 (]: Using postgres connection "test.wow_model.not_null_transform_emp_hours_emp_name.d2eb5a493e"
+[0m05:51:40.164983 [debug] [Thread-1 (]: On test.wow_model.not_null_transform_emp_hours_emp_name.d2eb5a493e: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "wow_model_profile", "target_name": "dev", "node_id": "test.wow_model.not_null_transform_emp_hours_emp_name.d2eb5a493e"} */
+
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select emp_name
+from "WoW Model"."raw"."transform_emp_hours"
+where emp_name is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m05:51:40.165979 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m05:51:40.342752 [debug] [Thread-1 (]: SQL status: SELECT 1 in 0.176 seconds
+[0m05:51:40.345753 [debug] [Thread-1 (]: On test.wow_model.not_null_transform_emp_hours_emp_name.d2eb5a493e: ROLLBACK
+[0m05:51:40.348132 [debug] [Thread-1 (]: On test.wow_model.not_null_transform_emp_hours_emp_name.d2eb5a493e: Close
+[0m05:51:40.350402 [info ] [Thread-1 (]: 14 of 15 PASS not_null_transform_emp_hours_emp_name ............................ [[32mPASS[0m in 0.21s]
+[0m05:51:40.354280 [debug] [Thread-1 (]: Finished running node test.wow_model.not_null_transform_emp_hours_emp_name.d2eb5a493e
+[0m05:51:40.355987 [debug] [Thread-1 (]: Began running node test.wow_model.not_null_transform_emp_hours_week_start.d675a59ca7
+[0m05:51:40.357084 [info ] [Thread-1 (]: 15 of 15 START test not_null_transform_emp_hours_week_start .................... [RUN]
+[0m05:51:40.359498 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.wow_model.not_null_transform_emp_hours_emp_name.d2eb5a493e, now test.wow_model.not_null_transform_emp_hours_week_start.d675a59ca7)
+[0m05:51:40.360500 [debug] [Thread-1 (]: Began compiling node test.wow_model.not_null_transform_emp_hours_week_start.d675a59ca7
+[0m05:51:40.371514 [debug] [Thread-1 (]: Writing injected SQL for node "test.wow_model.not_null_transform_emp_hours_week_start.d675a59ca7"
+[0m05:51:40.373508 [debug] [Thread-1 (]: Began executing node test.wow_model.not_null_transform_emp_hours_week_start.d675a59ca7
+[0m05:51:40.380507 [debug] [Thread-1 (]: Writing runtime sql for node "test.wow_model.not_null_transform_emp_hours_week_start.d675a59ca7"
+[0m05:51:40.382510 [debug] [Thread-1 (]: Using postgres connection "test.wow_model.not_null_transform_emp_hours_week_start.d675a59ca7"
+[0m05:51:40.384503 [debug] [Thread-1 (]: On test.wow_model.not_null_transform_emp_hours_week_start.d675a59ca7: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "wow_model_profile", "target_name": "dev", "node_id": "test.wow_model.not_null_transform_emp_hours_week_start.d675a59ca7"} */
+
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select week_start
+from "WoW Model"."raw"."transform_emp_hours"
+where week_start is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m05:51:40.385503 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m05:51:40.562882 [debug] [Thread-1 (]: SQL status: SELECT 1 in 0.177 seconds
+[0m05:51:40.566583 [debug] [Thread-1 (]: On test.wow_model.not_null_transform_emp_hours_week_start.d675a59ca7: ROLLBACK
+[0m05:51:40.567580 [debug] [Thread-1 (]: On test.wow_model.not_null_transform_emp_hours_week_start.d675a59ca7: Close
+[0m05:51:40.570583 [info ] [Thread-1 (]: 15 of 15 PASS not_null_transform_emp_hours_week_start .......................... [[32mPASS[0m in 0.21s]
+[0m05:51:40.573585 [debug] [Thread-1 (]: Finished running node test.wow_model.not_null_transform_emp_hours_week_start.d675a59ca7
+[0m05:51:40.577613 [debug] [MainThread]: On master: COMMIT
+[0m05:51:40.578583 [debug] [MainThread]: Using postgres connection "master"
+[0m05:51:40.579620 [debug] [MainThread]: On master: COMMIT
+[0m05:51:40.580621 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m05:51:40.655826 [debug] [MainThread]: SQL status: COMMIT in 0.075 seconds
+[0m05:51:40.657790 [debug] [MainThread]: On master: Close
+[0m05:51:40.658790 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m05:51:40.660997 [debug] [MainThread]: Connection 'list_WoW Model_raw' was properly closed.
+[0m05:51:40.661995 [debug] [MainThread]: Connection 'test.wow_model.not_null_transform_emp_hours_week_start.d675a59ca7' was properly closed.
+[0m05:51:40.663992 [info ] [MainThread]: 
+[0m05:51:40.665998 [info ] [MainThread]: Finished running 15 data tests in 0 hours 0 minutes and 2.92 seconds (2.92s).
+[0m05:51:40.673992 [debug] [MainThread]: Command end result
+[0m05:51:40.731253 [debug] [MainThread]: Wrote artifact WritableManifest to C:\emp_analytics\WoW_Model\target\manifest.json
+[0m05:51:40.737257 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\emp_analytics\WoW_Model\target\semantic_manifest.json
+[0m05:51:40.756616 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\emp_analytics\WoW_Model\target\run_results.json
+[0m05:51:40.758586 [info ] [MainThread]: 
+[0m05:51:40.759593 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m05:51:40.762591 [info ] [MainThread]: 
+[0m05:51:40.764586 [info ] [MainThread]: Done. PASS=15 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=15
+[0m05:51:40.766586 [warn ] [MainThread]: [[33mWARNING[0m][DeprecationsSummary]: Deprecated functionality
+Summary of encountered deprecations:
+- ConfigSourcePathDeprecation: 1 occurrence
+- ConfigDataPathDeprecation: 1 occurrence
+To see all deprecation instances instead of just the first occurrence of each,
+run command again with the `--show-all-deprecations` flag. You may also need to
+run with `--no-partial-parse` as some deprecations are only encountered during
+parsing.
+[0m05:51:40.771602 [debug] [MainThread]: Command `dbt test` succeeded at 05:51:40.771602 after 5.79 seconds
+[0m05:51:40.772643 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000207E5BFAC20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000207E8528400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000207E6F50610>]}
+[0m05:51:40.773643 [debug] [MainThread]: Flushing usage events
+[0m05:51:41.640040 [debug] [MainThread]: An error was encountered while trying to flush usage events

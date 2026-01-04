@@ -19,8 +19,10 @@ def dbt_test():
         check = True
     )
 
-if __name__ == '__main__':
-    def dbt_pipeline():
+@flow(name = 'WoW Model DBT Flow')
+def dbt_pipeline():
         dbt_run()
         dbt_test()
 
+if __name__ == '__main__':
+     dbt_pipeline()
